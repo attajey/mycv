@@ -17,7 +17,7 @@ const About = () => {
         <div className="p-4">
           <Typer dataText={[" C'est moi ! "]} />
         </div>
-        <a href="./images/About me/Karimi Protfolio.pdf" target="__blank">
+        <a href="#" target="__blank">
           <button className="btn btn-dark fa fa-download fa-1x">
             &#160;&#160;Download My Portfolio
           </button>

@@ -11,7 +11,7 @@ const Projects = () => {
             src="./images/Projects/icons/front end.png"
             alt=""
           />
-          <h2>Front-end Projects</h2>
+          <h2 className="pb-4">Front-end Projects</h2>
         </div>
         <div className="row">
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
@@ -98,7 +98,7 @@ const Projects = () => {
             src="./images/Projects/icons/programming.png"
             alt=""
           />
-          <h2>Programming Projects</h2>
+          <h2 className="pb-4">Programming Projects</h2>
         </div>
         <div className="row">
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
@@ -201,7 +201,7 @@ const Projects = () => {
             alt=""
           />
 
-          <h2>Other Shit</h2>
+          <h2 className="pb-4">Other Shit</h2>
         </div>
         <div className="row">
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
