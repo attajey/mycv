@@ -1,0 +1,305 @@
+/* @font-face {
+    font-family: "BYekan";
+    src: url("../fonts/BYekan-webfont.eot") format("eot"),
+        url("../fonts/BYekan-webfont.woff") format("woff"),
+        url("../fonts/BYekan-webfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+} */
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype"),
+    url(../fonts/Roboto/Roboto-Regular.woff) format("woff"),
+    url(../fonts/Roboto/Roboto-Regular.eot) format("eot");
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    overflow-x: hidden;
+    background-color: #212529;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto-Regular, 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: url(../images/bgbgbgbg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+
+}
+/***********Default setting************/
+
+a:link,
+a:hover,
+a:active {
+    text-decoration: none;
+    outline: 0 !important;
+}
+i,
+span,
+label,
+a {
+    /* display: inline-block; */
+    /* font-weight: normal; */
+}
+ul {
+    list-style: none !important;
+    list-style-type: none !important;
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /* font-size: 15px; */
+    /* margin: 0; */
+    /* padding: 0; */
+}
+img {
+    /* max-width: 100%; */
+}
+/***********Navbar Setting************/
+.navbar {
+    font-size: 1.1rem;
+}
+.navbar-brand {
+    padding: 5px 8px;
+    border: 3px solid #c3c1c3;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    transition: all 0.9s ease;
+}
+.navbar-brand:hover{
+    color: #63a4c9 !important;
+    border-color: #63a4c9;
+    border-radius: 0px;
+}
+.nav-link {
+    transition: all 0.7s ease !important;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+.nav-link:hover {
+    color: #63a4c9 !important;
+}
+/***********Navbar Setting************/
+
+
+/***********All Projects Setting************/
+.icon-projects {
+    width: 7rem;
+    height: 6rem;
+    margin: auto;
+}
+
+.projects-items {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: auto ;
+    padding: 10px 10px;
+}
+.img-middle-div {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 2px solid black;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+.img-projects-present {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 12px;
+    transition: all 0.8s ease;
+    cursor: pointer;
+}
+.middle {
+    width: 15rem;
+    height: 8rem;
+    padding: 30px 0px;
+    transition: all 0.5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.685);
+
+}
+.middle h5 {
+    color: #63a4c9;
+    font-size: large;
+}
+
+
+.img-middle-div:hover{
+    border-radius: 0;
+
+}
+.img-middle-div:hover .img-projects-present{
+    border-radius: 0;
+    filter: blur(3px);
+
+}
+
+.img-projects {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.img-projects:hover{
+    opacity: 0.8;
+    border-radius: 0;
+}
+
+/***********All Projects Setting************/
+
+/***********About Setting************/
+.profile-pic {
+    border-radius: 100%;
+    width: 24vw;
+    height: 24vw;
+    border: 3px solid;
+}
+.icon {
+    padding-bottom: 20px;
+}
+/***********About Setting************/
+
+/***********Footer Setting************/
+.contact-icon {
+    font-size: 1.2rem !important;
+    padding: 10px 10px;
+}
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.contact {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+}
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding-top: 10px;
+
+}
+.social-icons {
+    color: black;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+
+}
+.social-icons:hover {
+    transform: scale(1.2,1.2);
+}
+.list-unstyled{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer-quick-link {
+    border: 1px solid transparent;
+    border-bottom: 2px solid whitesmoke;
+    padding: 10px 0px;
+    transition: all 0.5s ease;
+}
+.footer-quick-link:hover{
+    border-radius: 100%;
+    border-bottom: 2px solid #63a4c9;
+    color: #63a4c9;
+}
+.social-btn:hover {
+    background-color: #63a4c9;
+}
+/***********Footer Setting************/
+
+
+.btn:hover {
+    color: #63a4c9;
+    background-color: black;
+}
+
+/***********Projects Detail Setting************/
+.img-project-main {
+    width: 17rem;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.img-fluid-custom {
+    width: 100%;
+    height: auto;
+    overflow-x: auto;
+}
+
+object {
+    width: 100%;
+    border-radius: 15px;
+    height: 50rem;
+}
+
+.img-drawing {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 15px;
+    border: 1px solid;
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.img-drawing:hover {
+    opacity: 0.8;
+    border-radius: 0;
+}
+
+.modal-content span {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.gif-container {
+    margin-top: -3rem;
+}
+
+
+/***********Media Queries************/
+@media all and (max-width: 375px) {}
+
+@media all and (min-width: 376px) and (max-width: 575px) {}
+@media all and (min-width: 576px) and (max-width: 767px) {}
+@media all and (min-width: 768px) and (max-width: 991px) {}
+@media all and (min-width: 992px) and (max-width: 1199px) {}
+@media all and (min-width: 1200px) {
+
+}
