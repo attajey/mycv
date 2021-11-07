@@ -65,6 +65,10 @@ h6 {
 img {
     /* max-width: 100%; */
 }
+hr {
+    height: 3px !important;
+    opacity: 0.7;
+}
 /***********Navbar Setting************/
 .navbar {
     font-size: 1.1rem;
@@ -150,7 +154,8 @@ img {
 }
 .img-middle-div:hover .img-projects-present{
     border-radius: 0;
-    filter: blur(3px);
+    filter: blur(3px) grayscale(100%);
+    /* filter:grayscale(100%); */
 
 }
 
