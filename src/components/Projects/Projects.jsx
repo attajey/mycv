@@ -9,7 +9,7 @@ const Projects = () => {
           <img
             className="icon-projects"
             src="./images/Projects/icons/front end.png"
-            alt=""
+            alt="Front-end Projects"
           />
           <h2 className="pb-4">Front-end Projects</h2>
         </div>
@@ -49,7 +49,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/html-css-js.jpg"
+                  src="./images/Projects/html-css-js.png"
                   alt="My CV"
                 />
                 <div className="middle">
@@ -96,7 +96,7 @@ const Projects = () => {
           <img
             className="icon-projects"
             src="./images/Projects/icons/programming.png"
-            alt=""
+            alt="Programming Projects"
           />
           <h2 className="pb-4">Programming Projects</h2>
         </div>
@@ -198,7 +198,7 @@ const Projects = () => {
           <img
             className="icon-projects"
             src="./images/Projects/icons/other shit.png"
-            alt=""
+            alt="Other Shit"
           />
 
           <h2 className="pb-4">Other Shit</h2>
@@ -254,7 +254,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/html-css-js.jpg"
+                  src="./images/Projects/html-css-js.png"
                   alt="BG Generator"
                 />
                 <div className="middle">

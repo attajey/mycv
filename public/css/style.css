@@ -95,6 +95,10 @@ hr {
 .nav-link:hover {
     color: #63a4c9 !important;
 }
+.icon-menu-projects {
+    width: 1.3rem;
+    height: 1.3rem;
+}
 /***********Navbar Setting************/
 
 
@@ -102,10 +106,9 @@ hr {
 /***********All Projects Setting************/
 .icon-projects {
     width: 7rem;
-    height: 6rem;
+    height: 5.3rem;
     margin: auto;
 }
-
 .projects-items {
     position: relative;
     display: flex;

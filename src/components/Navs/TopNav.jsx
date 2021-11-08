@@ -57,8 +57,12 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/university/youth-cultural-center"
                   >
-                    <i class="fa fa-bank"></i>
-                    &#160;Youth Cultural Center
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/front end.png"
+                      alt="Front-end Projects"
+                    />
+                    &#160;Architecture CV Sample
                   </NavLink>
                 </li>
                 <li>
@@ -66,8 +70,12 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/university/residential-complex"
                   >
-                    <i class="fa fa-bank"></i>
-                    &#160;Residential Complex
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/front end.png"
+                      alt="Front-end Projects"
+                    />
+                    &#160;My CV
                   </NavLink>
                 </li>
                 <li>
@@ -75,8 +83,38 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/university/four-star-hotel"
                   >
-                    <i class="fa fa-bank"></i>
-                    &#160;Four Star Hotel
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/front end.png"
+                      alt="Front-end Projects"
+                    />
+                    &#160;Profile Intern Project
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/projects/university/four-star-hotel"
+                  >
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/front end.png"
+                      alt="Front-end Projects"
+                    />
+                    &#160;Mother Nature
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/projects/university/four-star-hotel"
+                  >
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/front end.png"
+                      alt="Front-end Projects"
+                    />
+                    &#160;Pet Nurse
                   </NavLink>
                 </li>
                 <hr className="dropdown-divider" />
@@ -85,8 +123,12 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/research/balkhast-house"
                   >
-                    <i class="fa fa-search"></i>
-                    &#160;Balkhast House
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/programming.png"
+                      alt="Programming Projects"
+                    />
+                    &#160;Realm Rush
                   </NavLink>
                 </li>
                 <li>
@@ -94,8 +136,12 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/research/five-renovation-projects"
                   >
-                    <i class="fa fa-search"></i>
-                    &#160;Five Renovation Projects
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/programming.png"
+                      alt="Programming Projects"
+                    />
+                    &#160;Project Boost
                   </NavLink>
                 </li>
                 <li>
@@ -103,8 +149,38 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/research/sustainable-rural-development"
                   >
-                    <i class="fa fa-search"></i>
-                    &#160;Sustainable Rural Development
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/programming.png"
+                      alt="Programming Projects"
+                    />
+                    &#160;Tetris
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/projects/university/four-star-hotel"
+                  >
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/programming.png"
+                      alt="Programming Projects"
+                    />
+                    &#160;Accounting Software
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/projects/university/four-star-hotel"
+                  >
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/programming.png"
+                      alt="Programming Projects"
+                    />
+                    &#160;Parking Sensor
                   </NavLink>
                 </li>
                 <hr className="dropdown-divider" />
@@ -113,8 +189,12 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/fun/drawings"
                   >
-                    <i class="fa fa-puzzle-piece"></i>
-                    &#160;Drawings
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/other shit.png"
+                      alt="Other Shit"
+                    />
+                    &#160;Todo App
                   </NavLink>
                 </li>
                 <li>
@@ -122,8 +202,12 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/fun/sketches"
                   >
-                    <i class="fa fa-puzzle-piece"></i>
-                    &#160;Sketches
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/other shit.png"
+                      alt="Other Shit"
+                    />
+                    &#160;Person Manager
                   </NavLink>
                 </li>
                 <li>
@@ -131,8 +215,25 @@ const TopNav = () => {
                     className="dropdown-item"
                     to="/projects/fun/software-practice"
                   >
-                    <i class="fa fa-puzzle-piece"></i>
-                    &#160;Software Practice
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/other shit.png"
+                      alt="Other Shit"
+                    />
+                    &#160;Robo Friends
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/projects/university/four-star-hotel"
+                  >
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/other shit.png"
+                      alt="Other Shit"
+                    />
+                    &#160;Background Generator
                   </NavLink>
                 </li>
               </ul>
