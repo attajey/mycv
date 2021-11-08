@@ -12,7 +12,7 @@ const About = () => {
         <div className="col-md-4 col-12 px-5 px-md-0">
           <form
             className=""
-            action="mailto:kimiakarimi2706@gmail.com"
+            action="mailto:jirofty76@gmail.com"
             method="post"
             enctype="text/plain"
           >
@@ -62,23 +62,25 @@ const About = () => {
           <div className="contact">
             <i className="fa fa-phone contact-icon"></i>
             <a
+              className="contact-links"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Click to Call"
-              href="tel:+989029696776"
+              href="tel:+989355113377"
             >
-              +989029696776
+              +989355113377
             </a>
           </div>
           <div className="contact">
             <i className="fa fa-google contact-icon"></i>
             <a
+              className="contact-links"
               data-toggle="tooltip"
               data-placement="bottom"
               title="Click to Send Email"
-              href="mailto: kimiakarimi2706@gmail.com"
+              href="mailto: jirofty76@gmail.com"
             >
-              kimiakarimi2706@gmail.com
+              jirofty76@gmail.com
             </a>
           </div>
           <div
@@ -89,8 +91,12 @@ const About = () => {
           >
             <i className="fa fa-map-pin contact-icon"></i>
             <address className="pt-3">
-              <a href="https://goo.gl/maps/gvQHEjRDTPpVSDrt7" target="__blank">
-                40th Sayyad Shirazi Blvd, Mshd, Iran
+              <a
+                className="contact-links"
+                href="https://goo.gl/maps/Lr71pg9UVUvAxZ8G6"
+                target="__blank"
+              >
+                9th Rahmaniyeh Blvd, Mshd, Iran
               </a>
             </address>
           </div>
@@ -99,7 +105,7 @@ const About = () => {
               data-toggle="tooltip"
               data-placement="bottom"
               title="Linkedin"
-              href="https://www.linkedin.com/in/kimiakarimi/"
+              href="https://www.linkedin.com/in/atta-jirofty/"
               target="__blank"
             >
               <i className="fa fa-linkedin fa-2x social-icons"></i>
@@ -108,7 +114,7 @@ const About = () => {
               data-toggle="tooltip"
               data-placement="bottom"
               title="Instagram"
-              href="https://www.instagram.com/kim_folio/"
+              href="https://www.instagram.com/jiiimiiij/"
               target="__blank"
             >
               <i className="fa fa-instagram fa-2x social-icons"></i>
@@ -117,10 +123,19 @@ const About = () => {
               data-toggle="tooltip"
               data-placement="bottom"
               title="Telegram"
-              href="https://t.me/Ki_M_ia"
+              href="https://t.me/atta_ji"
               target="__blank"
             >
               <i className="fa fa-telegram fa-2x social-icons"></i>
+            </a>
+            <a
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Telegram"
+              href="https://github.com/attajey"
+              target="__blank"
+            >
+              <i className="fa fa-github fa-2x social-icons"></i>
             </a>
           </div>
         </div>

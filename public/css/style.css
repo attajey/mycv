@@ -224,6 +224,7 @@ hr {
 
 }
 .social-icons:hover {
+    color: #63a4c9;
     transform: scale(1.2,1.2);
 }
 .list-unstyled{
@@ -311,6 +312,12 @@ object {
     margin-bottom: 1px;
 }
 
+/* CONTACT */
+
+.contact-links {
+    color: #63a4c9;
+    transition: all 0.5s ease;
+}
 
 /***********Media Queries************/
 @media all and (max-width: 375px) {
