@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import Typer from "react-animated-typer";
+import { NavLink } from "react-router-dom";
 
 const About = () => {
   document.title = "About Me";
@@ -17,11 +18,11 @@ const About = () => {
         <div className="p-4">
           <Typer dataText={[" C'est moi ! "]} />
         </div>
-        <a href="#" target="__blank">
+        <NavLink to="#" target="__blank">
           <button className="btn btn-dark fa fa-download fa-1x">
-            &#160;&#160;Download My Portfolio
+            &#160;&#160;Download My CV
           </button>
-        </a>
+        </NavLink>
       </div>
       <div className="row pt-5">
         <div className="col-12 px-5 fs-5">
@@ -115,7 +116,7 @@ const About = () => {
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">
-            <i className="fa fa-gears fa-2x icon"></i>
+            <i className="fa fa-wrench fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Skills</h3>
               <div className="row pt-3 px-3">
@@ -138,6 +139,7 @@ const About = () => {
                     </div>
                   </div>
                 </div>
+
                 <div className="col-12 col-sm-6 col-md-4 py-3">
                   <span class="badge rounded-pill bg-dark">
                     <img
@@ -192,6 +194,25 @@ const About = () => {
                       style={{ width: "95%" }}
                     >
                       95%
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/react.png"
+                      alt="html5 icon"
+                    />
+                    React
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "30%" }}
+                    >
+                      30%
                     </div>
                   </div>
                 </div>
@@ -349,12 +370,12 @@ const About = () => {
                     <p className="ps-2">IRSAFAM Institute</p>
                   </div>
                   <p className="ps-5">
-                    Holder of IIELTS degree with overall band score of{" "}
+                    Holder of IIELTS degree with overall band score of 7
                   </p>
                   <a
                     className="ps-5 text-info"
                     target="”_blank”"
-                    href="./images/About me/IELTS.jpg"
+                    href="./images/About me/IELTS.pdf"
                   >
                     See credential
                   </a>
@@ -365,13 +386,15 @@ const About = () => {
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
                     <h5 className="fw-bold ps-2">
-                      Architecture Group Exhibition
+                      Cellphone Repair Technician
                     </h5>
                   </div>
-                  <p className="fs-6 ps-4">&#160;Issued Jul 2018</p>
+                  <p className="fs-6 ps-4">
+                    &#160;Issued Feb 2021 - Expires Feb 2026
+                  </p>
                   <div className="d-flex flex-row ps-4">
                     <i className="fa fa-circle pt-1"></i>
-                    <p className="ps-2">Setavin Art And Architecture Network</p>
+                    <p className="ps-2">Technical And Vocational Department</p>
                   </div>
                   <p className="ps-5">
                     Member of the Spatial Organization Strategy Architecture
@@ -379,38 +402,33 @@ const About = () => {
                   </p>
                   <a
                     className="ps-5 text-info"
-                    target="”_blank”"
-                    href="https://setavin.com/Kimia_Karimi"
+                    target="__blank"
+                    href="./images/About me/cellphone repair tech.jpeg"
                   >
                     See credential
                   </a>
                 </div>
               </div>
-              <div className="media py-3">
-                <div className="media-body">
-                  <div className="d-flex flex-row">
-                    <i className="fa fa-dot-circle-o pt-1"></i>
-                    <h5 className="fw-bold ps-2">
-                      Architecture Design Process Workshop
-                    </h5>
-                  </div>
-                  <p className="fs-6 ps-4">&#160;Issued Sep 2017</p>
-                  <div className="d-flex flex-row ps-4">
-                    <i className="fa fa-circle pt-1"></i>
-                    <p className="ps-2">Setavin Art And Architecture Network</p>
-                  </div>
-                  <p className="ps-5">
-                    Discussed topics in these workshops were design processes,
-                    Origami in Architecture, Architectural Competitions, etc.
-                  </p>
-                  <a
-                    className="ps-5 text-info"
-                    target="”_blank”"
-                    href="./images/About me/Architectural Workshops.pdf"
-                  >
-                    See credential
-                  </a>
-                </div>
+            </div>
+          </div>
+          <div className="custom-media media pb-5">
+            <i className="fa fa-hacker-news fa-2x icon"></i>
+            <div className="media-body">
+              <h3 className="fw-bolder">Publications</h3>
+              <p className="fs-6">2018-2020</p>
+              <div className="d-flex flex-row">
+                <i className="fa fa-dot-circle-o pt-1"></i>
+                <h5 className="fw-bold ps-2">Radio Bit Magazine</h5>
+              </div>
+              <p className="fs-6 ps-4">&#160;Apr 2018</p>
+              <div className="d-flex flex-row ps-4">
+                <i className="fa fa-circle pt-1"></i>
+                <p className="ps-2">
+                  Editor in Chief & Editorial Board A magazine for all C.Eng.
+                  students of Yazd University to read all about Technology,
+                  News, Interviews with professors, Festivals and Educational
+                  topics.See publication
+                </p>
               </div>
             </div>
           </div>
@@ -457,38 +475,44 @@ const About = () => {
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">
-            <i className="fa fa-puzzle-piece fa-2x icon"></i>
+            <i className="fa fa-gamepad fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Hobbies</h3>
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
+                    <p className="ps-2">Coding For Fun !</p>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <i className="fa fa-dot-circle-o pt-1"></i>
+                    <p className="ps-2">Playing Guitar And Writing Lyrics</p>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">
-                      Playing Tonbak ( An Iranian goblet drum )
+                      Reading Books (Modern Novels, High Fantacy, History)
                     </p>
                   </div>
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">
-                      Watching Documentaries ( History, Art, Science )
+                      Watching Documentaries (History, Science, Art)
                     </p>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <i className="fa fa-dot-circle-o pt-1"></i>
+                    <p className="ps-2">Playing Video Games</p>
+                  </div>
+                  <div className="d-flex flex-row">
+                    <i className="fa fa-dot-circle-o pt-1"></i>
+                    <p className="ps-2">Swimming Alone</p>
                   </div>
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
                     <p className="ps-2">
-                      Reading Books ( Architecture, History, Classic Novel )
+                      Hating And Killing Bugs (Computer-wise)
                     </p>
-                  </div>
-                  <div className="d-flex flex-row">
-                    <i className="fa fa-dot-circle-o pt-1"></i>
-                    <p className="ps-2">
-                      Drawing ( Hand-drawing on paper or canvas )
-                    </p>
-                  </div>
-                  <div className="d-flex flex-row">
-                    <i className="fa fa-dot-circle-o pt-1"></i>
-                    <p className="ps-2">Dancing and Gymnastics</p>
                   </div>
                 </div>
               </div>
