@@ -29,36 +29,35 @@ const About = () => {
             <i className="fa fa-graduation-cap fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Educations</h3>
-              <p className="fs-6">2016-2021</p>
+              <p className="fs-6">2016-2020</p>
               <div className="d-flex flex-row">
                 <i className="fa fa-dot-circle-o pt-1"></i>
-                <h5 className="fw-bold ps-2">Bachelor of Architecture</h5>
+                <h5 className="fw-bold ps-2">B.Sc. in Computer Engineering</h5>
               </div>
-              <p className="fs-6 ps-4">&#160;2016-2021</p>
+              <p className="fs-6 ps-4">&#160;2016-2020</p>
               <div className="d-flex flex-row ps-4">
                 <i className="fa fa-circle pt-1"></i>
-                <p className="ps-2">Islamic Azad University of Mashhad</p>
+                <p className="ps-2">
+                  Yazd University Faculty of Computer Engineering
+                </p>
               </div>
-              <p className="ps-5">Overall GPA 3.7/4 </p>
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">
             <i className="fa fa-briefcase fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Work Experiences</h3>
-              <p className="fs-6">2019-2021</p>
+              <p className="fs-6">2016-2021</p>
               <div className="media py-3">
                 <div className="media-body">
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
-                    <h5 className="fw-bold ps-2">AutoCAD Drafter</h5>
+                    <h5 className="fw-bold ps-2">Teacher Assistant</h5>
                   </div>
-                  <p className="fs-6 ps-4">&#160;Oct 2021 - Present</p>
+                  <p className="fs-6 ps-4">&#160;Sep 2018 - Jun 2020</p>
                   <div className="d-flex flex-row ps-4">
                     <i className="fa fa-circle pt-1"></i>
-                    <p className="ps-2">
-                      Internship at Arian Engineering Group
-                    </p>
+                    <p className="ps-2">Computer Systems Architecture T.A.</p>
                   </div>
                   <p className="ps-5">
                     An internship program in Arian Engineering Group, mainly
@@ -77,19 +76,39 @@ const About = () => {
                 <div className="media-body">
                   <div className="d-flex flex-row">
                     <i className="fa fa-dot-circle-o pt-1"></i>
-                    <h5 className="fw-bold ps-2">Research Assistant</h5>
+                    <h5 className="fw-bold ps-2">
+                      Member of Computer Eng Association
+                    </h5>
                   </div>
-                  <p className="fs-6 ps-4">&#160;Summer of 2019</p>
+                  <p className="fs-6 ps-4">&#160;Sep 2017 - May 2019</p>
                   <div className="d-flex flex-row ps-4">
                     <i className="fa fa-circle pt-1"></i>
                     <p className="ps-2">
-                      Internship at Islamic Azad University of Mashhad
+                      Original Member of CEA - Yazd University
                     </p>
                   </div>
                   <p className="ps-5">
-                    Voluntarily researched on sustainability of rural area's
-                    architecture during 1930-1980, supervised by my university
-                    professor
+                    Responsible for holding all seminars,festivals and science
+                    trips for C.Eng. students.
+                  </p>
+                </div>
+              </div>
+              <div className="media py-3">
+                <div className="media-body">
+                  <div className="d-flex flex-row">
+                    <i className="fa fa-dot-circle-o pt-1"></i>
+                    <h5 className="fw-bold ps-2">Hardware R&D</h5>
+                  </div>
+                  <p className="fs-6 ps-4">&#160;Jun 2019 - Sep 2019</p>
+                  <div className="d-flex flex-row ps-4">
+                    <i className="fa fa-circle pt-1"></i>
+                    <p className="ps-2">
+                      Summer Internship at Zharfpouyan Company{" "}
+                    </p>
+                  </div>
+                  <p className="ps-5">
+                    Research on hardware requirements and protocols for IoT
+                    based companies.
                   </p>
                 </div>
               </div>
@@ -100,87 +119,212 @@ const About = () => {
             <div className="media-body">
               <h3 className="fw-bolder">Skills</h3>
               <div className="row pt-3 px-3">
-                <div className="col-6 col-sm-4 d-flex align-items-center flex-wrap">
-                  <div className="row py-4">
-                    <p className="fw-bold">AutoCAD</p>
-                    <div className="wow pulse text-center clearfix">
-                      <div className="c100 p80 small">
-                        <span>80%</span>
-                        <div className="slice">
-                          <div className="bar"></div>
-                          <div className="fill"></div>
-                        </div>
-                      </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/html5.png"
+                      alt="html5 icon"
+                    />
+                    HTML 5
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "100%" }}
+                    >
+                      100%
                     </div>
                   </div>
                 </div>
-                <div className="col-6 col-sm-4 d-flex align-items-center flex-wrap">
-                  <div className="row py-4">
-                    <p className="fw-bold">&#160;Lumion</p>
-                    <div className="wow pulse clearfix">
-                      <div className="c100 p70 small">
-                        <span>70%</span>
-                        <div className="slice">
-                          <div className="bar"></div>
-                          <div className="fill"></div>
-                        </div>
-                      </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/css3.png"
+                      alt="css3 icon"
+                    />
+                    CSS 3
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "70%" }}
+                    >
+                      70%
                     </div>
                   </div>
                 </div>
-                <div className="col-6 col-sm-4 d-flex align-items-center flex-wrap">
-                  <div className="row py-4">
-                    <p className="fw-bold">3ds Max</p>
-                    <div className="wow pulse clearfix">
-                      <div className="c100 p60 small">
-                        <span>60%</span>
-                        <div className="slice">
-                          <div className="bar"></div>
-                          <div className="fill"></div>
-                        </div>
-                      </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/js.png"
+                      alt="js icon"
+                    />
+                    JavaScript
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "50%" }}
+                    >
+                      50%
                     </div>
                   </div>
                 </div>
-                <div className="col-6 col-sm-4 d-flex align-items-center flex-wrap">
-                  <div className="row py-4">
-                    <p className="fw-bold">Drawing</p>
-                    <div className="wow pulse clearfix">
-                      <div className="c100 p60 small">
-                        <span>60%</span>
-                        <div className="slice">
-                          <div className="bar"></div>
-                          <div className="fill"></div>
-                        </div>
-                      </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/bootstrap.png"
+                      alt="bootstrap icon"
+                    />
+                    Bootstrap
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "95%" }}
+                    >
+                      95%
                     </div>
                   </div>
                 </div>
-                <div className="col-6 col-sm-4 d-flex align-items-center flex-wrap">
-                  <div className="row py-4">
-                    <p className="fw-bold">&#160;&#160;&#160;Revit</p>
-                    <div className="wow pulse clearfix">
-                      <div className="c100 p50 small">
-                        <span>50%</span>
-                        <div className="slice">
-                          <div className="bar"></div>
-                          <div className="fill"></div>
-                        </div>
-                      </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/git.png"
+                      alt="git icon"
+                    />
+                    Git
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "50%" }}
+                    >
+                      50%
                     </div>
                   </div>
                 </div>
-                <div className="col-6 col-sm-4 d-flex align-items-center flex-wrap">
-                  <div className="row py-4">
-                    <p className="fw-bold">Photoshop</p>
-                    <div className="wow pulse clearfix">
-                      <div className="c100 p60 small">
-                        <span>60%</span>
-                        <div className="slice">
-                          <div className="bar"></div>
-                          <div className="fill"></div>
-                        </div>
-                      </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/csharp.png"
+                      alt="csharp icon"
+                    />
+                    C#
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "40%" }}
+                    >
+                      40%
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/unity.png"
+                      alt="unity icon"
+                    />
+                    Unity
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "30%" }}
+                    >
+                      30%
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/arduino.png"
+                      alt="arduino icon"
+                    />
+                    Arduino
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "70%" }}
+                    >
+                      70%
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/wordpress.png"
+                      alt="wordpress icon"
+                    />
+                    Wordpress
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "70%" }}
+                    >
+                      70%
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/electronics.png"
+                      alt="electronics icon"
+                    />
+                    Electronics
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "40%" }}
+                    >
+                      40%
+                    </div>
+                  </div>
+                </div>
+                <div className="col-12 col-sm-6 col-md-4 py-3">
+                  <span class="badge rounded-pill bg-dark">
+                    <img
+                      className="skills-icon"
+                      src="./images/About Me/skills icons/linux.png"
+                      alt="linux icon"
+                    />
+                    Linux
+                  </span>
+                  <div class="progress bg-dark">
+                    <div
+                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style={{ width: "30%" }}
+                    >
+                      30%
                     </div>
                   </div>
                 </div>
