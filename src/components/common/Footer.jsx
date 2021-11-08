@@ -10,7 +10,7 @@ const Footer = () => {
             <h5 className="text-uppercase pb-3">Social Media</h5>
             <a
               className="btn btn-outline-light btn-floating m-1 social-btn"
-              href="mailto: kimiakarimi2706@gmail.com"
+              href="mailto: jirofty76@gmail.com"
               target="__blank"
               role="button"
             >
@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
             <a
               className="btn btn-outline-light btn-floating m-1 social-btn"
-              href="https://www.instagram.com/kim_folio/"
+              href="https://www.instagram.com/jiiimiiij/"
               target="__blank"
               role="button"
             >
@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
             <a
               className="btn btn-outline-light btn-floating m-1 social-btn"
-              href="https://www.linkedin.com/in/kimiakarimi/"
+              href="https://www.linkedin.com/in/atta-jirofty/"
               target="__blank"
               role="button"
             >
@@ -34,11 +34,19 @@ const Footer = () => {
             </a>
             <a
               className="btn btn-outline-light btn-floating m-1 social-btn"
-              href="https://t.me/Ki_M_ia"
+              href="https://t.me/atta_ji"
               target="__blank"
               role="button"
             >
               <i className="fa fa-telegram"></i>
+            </a>
+            <a
+              className="btn btn-outline-light btn-floating m-1 social-btn"
+              href="https://github.com/attajey"
+              target="__blank"
+              role="button"
+            >
+              <i className="fa fa-github"></i>
             </a>
           </div>
           <div className="col-12 col-lg-6 pt-3">
