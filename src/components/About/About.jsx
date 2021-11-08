@@ -61,16 +61,10 @@ const About = () => {
                     <p className="ps-2">Computer Systems Architecture T.A.</p>
                   </div>
                   <p className="ps-5">
-                    An internship program in Arian Engineering Group, mainly
-                    focused on Auto-cad drafting, Residential Design, etc.
+                    Assisted my professor, Dr. Matin Khah, for 4 semester
+                    regarding problem solving, grading, tarahi proje ing va
+                    tamrining.
                   </p>
-                  <a
-                    className="text-info"
-                    href="An internship program in Arian Engineering Group, mainly focused on Auto-cad drafting, Residential 
-                  Design, etc."
-                  >
-                    Visit Arian Eng. Gp. Page
-                  </a>
                 </div>
               </div>
               <div className="media py-3">
@@ -397,8 +391,8 @@ const About = () => {
                     <p className="ps-2">Technical And Vocational Department</p>
                   </div>
                   <p className="ps-5">
-                    Member of the Spatial Organization Strategy Architecture
-                    group exhibition{" "}
+                    Atained a 130 hour course at Iran Technical-Vocational
+                    Training Organization (ITVTO).
                   </p>
                   <a
                     className="ps-5 text-info"
@@ -412,7 +406,7 @@ const About = () => {
             </div>
           </div>
           <div className="custom-media media pb-5">
-            <i className="fa fa-hacker-news fa-2x icon"></i>
+            <i className="fa fa-book fa-2x icon"></i>
             <div className="media-body">
               <h3 className="fw-bolder">Publications</h3>
               <p className="fs-6">2018-2020</p>
@@ -423,13 +417,20 @@ const About = () => {
               <p className="fs-6 ps-4">&#160;Apr 2018</p>
               <div className="d-flex flex-row ps-4">
                 <i className="fa fa-circle pt-1"></i>
-                <p className="ps-2">
-                  Editor in Chief & Editorial Board A magazine for all C.Eng.
-                  students of Yazd University to read all about Technology,
-                  News, Interviews with professors, Festivals and Educational
-                  topics.See publication
-                </p>
+                <p className="ps-2">Editor in Chief & Editorial Board</p>
               </div>
+              <p className="ps-5">
+                A magazine for C.Eng. students of Yazd University to read all
+                about Technology, News, Interviews with professors, Festivals
+                and Educational topics.
+              </p>
+              <a
+                className="ps-5 text-info"
+                target="__blank"
+                href="./images/About me/Radio Bit Magazine.pdf"
+              >
+                See publication
+              </a>
             </div>
           </div>
           <div className="custom-media media pb-5 wow bounceIn">

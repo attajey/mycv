@@ -25,11 +25,11 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     /* background: url(../images/bgbgbgbg.jpg); */
-    background: url(../images/test3.webp);
+    /* background: url(../images/test3.webp);
 
     background-repeat: no-repeat;
     background-size:cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 
 
 }
@@ -96,6 +96,7 @@ hr {
     color: #63a4c9 !important;
 }
 /***********Navbar Setting************/
+
 
 
 /***********All Projects Setting************/
@@ -312,12 +313,65 @@ object {
 
 
 /***********Media Queries************/
-@media all and (max-width: 375px) {}
+@media all and (max-width: 375px) {
+    body {
+        background: url(../images/main\ bg\ 5.png);
 
-@media all and (min-width: 376px) and (max-width: 575px) {}
-@media all and (min-width: 576px) and (max-width: 767px) {}
-@media all and (min-width: 768px) and (max-width: 991px) {}
-@media all and (min-width: 992px) and (max-width: 1199px) {}
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 575px) {
+    body {
+        background: url(../images/main\ bg\ 5.png);
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    }
+}
+@media all and (min-width: 576px) and (max-width: 767px) {
+    body {
+        background: url(../images/main\ bg\ 4.png);
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+    body {
+        background: url(../images/main\ bg\ 3.png);
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    }
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        background: url(../images/main\ bg\ 2.png);
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    }
+}
 @media all and (min-width: 1200px) {
+    body {
+        background: url(../images/main\ bg\ 1.webp);
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+
+    }
 
 }
