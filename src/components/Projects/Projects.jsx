@@ -53,7 +53,7 @@ const Projects = () => {
                   alt="My CV"
                 />
                 <div className="middle">
-                  <h4>Profile Intern Project</h4>
+                  <h4>Profile Intern Task</h4>
                   <h5>Click For Details</h5>
                 </div>
               </div>

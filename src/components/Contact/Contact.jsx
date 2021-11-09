@@ -131,7 +131,7 @@ const About = () => {
             <a
               data-toggle="tooltip"
               data-placement="bottom"
-              title="Telegram"
+              title="Github"
               href="https://github.com/attajey"
               target="__blank"
             >

@@ -305,6 +305,31 @@ object {
 }
 
 
+
+.img-project-indiv {
+    width: 20rem;
+    height: 12rem;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin: 20px 0px;
+}
+.img-project-indiv:hover{
+    transform: scale(1.3,1.3);
+}
+.p-project-indiv{
+    letter-spacing: 1px;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.link-project-indiv {
+    color: #63a4c9;
+    padding: 0px 10px;
+}
+
+
+
 /***********About Me************/
 .skills-icon {
     width: 1rem;
