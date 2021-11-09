@@ -24,6 +24,12 @@ const ProfileInternTask = () => {
               develop a website with a much higher speed.
               <br />
               <br />
+              Also I used <a href="https://animate.style/">Animate.css</a> for
+              some animations in this website, and I used{" "}
+              <a href="https://wowjs.uk/">wow.js</a> to reveal animation only
+              when you scroll in page.
+              <br />
+              <br />
               This project has its own design bugs, but I didnt updated it to
               leave it as a reminder to me that this project was your first one!
               look what you can do now !

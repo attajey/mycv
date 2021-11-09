@@ -74,21 +74,7 @@ const Projects = () => {
               </div>
             </NavLink>
           </div>
-          <div className="col-12 col-sm-6 col-lg-3 projects-items">
-            <NavLink to="/projects/wordpress/pet-nurse">
-              <div className="img-middle-div text-center">
-                <img
-                  className="img-projects-present"
-                  src="./images/Projects/wordpress.png"
-                  alt="Pet Nurse"
-                />
-                <div className="middle">
-                  <h4>Pet Nurse</h4>
-                  <h5>Click For Details</h5>
-                </div>
-              </div>
-            </NavLink>
-          </div>
+
           <hr className="mt-3" />
         </div>
 
