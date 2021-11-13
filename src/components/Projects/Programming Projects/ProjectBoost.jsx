@@ -1,9 +1,18 @@
 import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 
 const MyCv = () => {
   return (
     <Fragment>
       <div className="container">
+        <div className="row">
+          <div className="col-1">
+            <NavLink
+              to="/projects"
+              className="fa fa-backward fa-2x back-button"
+            ></NavLink>
+          </div>
+        </div>
         <div className="row">
           <div className="col-12 text-center py-3">
             <h1>Project Boost</h1>

@@ -1,19 +1,28 @@
 import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 
 const ArchCvSample = () => {
   return (
     <Fragment>
       <div className="container">
         <div className="row">
+          <div className="col-1">
+            <NavLink
+              to="/projects"
+              className="fa fa-backward fa-2x back-button"
+            ></NavLink>
+          </div>
+        </div>
+        <div className="row">
           <div className="col-12 text-center py-3">
             <h1>Architecture CV Sample</h1>
-            <i className="fa fa-backward fa-2x back-button"></i>
             <img
               className="img-project-indiv"
               src="../../images/Projects/Front-end Projects/arch-cv-sample.png"
               alt="Architecture CV Sample"
             />
           </div>
+
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">

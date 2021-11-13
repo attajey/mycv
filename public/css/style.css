@@ -329,9 +329,8 @@ object {
 }
 
 .back-button {
-    position: relative;
-    top: -54%;
-    left: -37%;
+    padding: 15px 0px 0px 0px;
+    color: #63a4c9;
 }
 .project-video{
     width: 22rem;
