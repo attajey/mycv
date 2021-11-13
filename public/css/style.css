@@ -333,6 +333,12 @@ object {
     top: -54%;
     left: -37%;
 }
+.project-video{
+    width: 22rem;
+    height: 13rem;
+    border: 3px solid;
+    border-radius: 15px;
+}
 
 
 
@@ -408,6 +414,8 @@ object {
 @media all and (min-width: 1200px) {
     body {
         background: url(../images/main\ bg\ 1.webp);
+        /* background: url(../images/test.jpg); */
+
 
     background-repeat: no-repeat;
     background-size:cover;

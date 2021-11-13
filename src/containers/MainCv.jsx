@@ -10,11 +10,13 @@ import ArchCvSample from "../components/Projects/Front-end Projects/ArchCvSample
 import MyCv from "../components/Projects/Front-end Projects/MyCv";
 import ProfileInternTask from "../components/Projects/Front-end Projects/ProfileInternTask";
 import MotherNature from "../components/Projects/Front-end Projects/MotherNature";
+import ProjectBoost from "../components/Projects/Programming Projects/ProjectBoost";
 
 const MainCv = (props) => {
   return (
     <MainLayout>
       <Switch>
+        <Route path="/projects/unity/realm-rush" component={ProjectBoost} />
         <Route
           path="/projects/bootstrap/mother-nature"
           component={MotherNature}
