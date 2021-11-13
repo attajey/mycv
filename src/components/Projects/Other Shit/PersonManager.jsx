@@ -27,7 +27,18 @@ const MyCv = () => {
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">
-              This Project Is Under Construction !
+              This is a simple React app to practice some of neseccery features
+              of this cool framework.
+              <br />
+              its very similar to
+              <NavLink to="todo-app">Todo App </NavLink>
+              project.
+              <br />
+              <br />
+              You can add or delete a person and also change its name real-time.
+              <br />
+              <br />I also used Toastify to display some cool notifications when
+              you add or delete a person.
             </p>
 
             <a

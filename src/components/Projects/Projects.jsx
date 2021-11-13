@@ -187,7 +187,7 @@ const Projects = () => {
             alt="Other Shit"
           />
 
-          <h2 className="pb-4">Other Shit</h2>
+          <h2 className="pb-4">Other Stuff</h2>
         </div>
         <div className="row">
           <div className="col-12 col-sm-6 col-lg-3 projects-items">

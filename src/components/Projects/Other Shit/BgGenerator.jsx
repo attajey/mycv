@@ -16,19 +16,28 @@ const MyCv = () => {
         <div className="row">
           <div className="col-12 text-center py-3">
             <h1>Background Generator</h1>
-            {/* <video className="project-video" controls>
-              <source
-                src="../../images/Projects/Programming Projects/Argon Assault.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video> */}
+            <img
+              className="img-project-indiv"
+              src="../../images/Projects/Other Shits/bg-generator.png"
+              alt="Architecture CV Sample"
+            />
           </div>
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">
-              This Project Is Under Construction !
+              This is just a simple practice on how to use css gradient
+              property.
+              <br />
+              <br />
+              It was somehow cool, so I put it here...
             </p>
+            <a
+              className="link-project-indiv"
+              href="https://attajey.github.io/background-generator/"
+              target="__blank"
+            >
+              <button className="btn btn-dark">find live demo here</button>
+            </a>
 
             <a
               className="link-project-indiv"

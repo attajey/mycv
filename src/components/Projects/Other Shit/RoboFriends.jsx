@@ -16,19 +16,31 @@ const MyCv = () => {
         <div className="row">
           <div className="col-12 text-center py-3">
             <h1>Robo Friends</h1>
-            {/* <video className="project-video" controls>
-              <source
-                src="../../images/Projects/Programming Projects/Argon Assault.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video> */}
+            <img
+              className="img-project-indiv"
+              src="../../images/Projects/Other Shits/robofriends.png"
+              alt="Architecture CV Sample"
+            />
           </div>
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">
-              This Project Is Under Construction !
+              This is a simple React practice. I used APIs to retrive robot
+              pictures and IDs.
+              <br /> <br />
+              There is a search bar that you can search for a specific name, and
+              it will filter robots for you to find your true robot friend !
+              <br />
+              <br />
+              After all we do need a friend...
             </p>
+            <a
+              className="link-project-indiv"
+              href="https://attajey.github.io/robofriends/"
+              target="__blank"
+            >
+              <button className="btn btn-dark">find live demo here</button>
+            </a>
 
             <a
               className="link-project-indiv"
