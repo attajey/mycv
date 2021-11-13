@@ -7,6 +7,7 @@ const ArchCvSample = () => {
         <div className="row">
           <div className="col-12 text-center py-3">
             <h1>Architecture CV Sample</h1>
+            <i className="fa fa-backward fa-2x back-button"></i>
             <img
               className="img-project-indiv"
               src="../../images/Projects/Front-end Projects/arch-cv-sample.png"

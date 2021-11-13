@@ -64,7 +64,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/boostrap.png"
+                  src="./images/Projects/bootstrap.png"
                   alt="Mother Nature"
                 />
                 <div className="middle">
@@ -92,7 +92,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/unity.png"
+                  src="./images/Projects/unity-csharp.jpeg"
                   alt="Unity Project"
                 />
                 <div className="middle">
@@ -107,7 +107,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/unity.png"
+                  src="./images/Projects/unity-csharp.jpeg"
                   alt="Unity Project"
                 />
                 <div className="middle">
@@ -122,7 +122,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/unity.png"
+                  src="./images/Projects/unity-csharp.jpeg"
                   alt="Unity Project"
                 />
                 <div className="middle">
@@ -137,7 +137,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/c plus.jpg"
+                  src="./images/Projects/cplus.png"
                   alt="Tetris Game"
                 />
                 <div className="middle">
@@ -152,7 +152,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/c plus.jpg"
+                  src="./images/Projects/cplus.png"
                   alt="Accounting Software"
                 />
                 <div className="middle">
@@ -167,7 +167,7 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/Arduino.png"
+                  src="./images/Projects/arduino.jpg"
                   alt="Parking Sensor"
                 />
                 <div className="middle">
