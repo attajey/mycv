@@ -29,7 +29,7 @@ const TopNav = () => {
                 exact
                 activeStyle={{ color: "#63a4c9" }}
               >
-                <i class="fa fa-home p-2"></i>
+                <i className="fa fa-home p-2"></i>
                 Home
               </NavLink>{" "}
             </li>
@@ -42,7 +42,7 @@ const TopNav = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <i class="fa fa-laptop p-2"></i>
+                <i className="fa fa-laptop p-2"></i>
                 Projects
               </NavLink>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -245,7 +245,7 @@ const TopNav = () => {
                 exact
                 activeStyle={{ color: "#63a4c9" }}
               >
-                <i class="fa fa-info p-2"></i>
+                <i className="fa fa-info p-2"></i>
                 About Me
               </NavLink>{" "}
             </li>
@@ -256,7 +256,7 @@ const TopNav = () => {
                 exact
                 activeStyle={{ color: "#63a4c9" }}
               >
-                <i class="fa fa-phone p-2"></i>
+                <i className="fa fa-phone p-2"></i>
                 Contact Me
               </NavLink>
             </li>
