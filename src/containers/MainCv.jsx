@@ -11,12 +11,18 @@ import MyCv from "../components/Projects/Front-end Projects/MyCv";
 import ProfileInternTask from "../components/Projects/Front-end Projects/ProfileInternTask";
 import MotherNature from "../components/Projects/Front-end Projects/MotherNature";
 import ProjectBoost from "../components/Projects/Programming Projects/ProjectBoost";
+import ArgonAssault from "../components/Projects/Programming Projects/ArgonAssault";
+import RealmRush from "../components/Projects/Programming Projects/RealmRush";
 
 const MainCv = (props) => {
   return (
     <MainLayout>
       <Switch>
-        <Route path="/projects/unity/realm-rush" component={ProjectBoost} />
+        <Route path="/projects/unity/realm-rush" component={RealmRush} />
+
+        <Route path="/projects/unity/argon-assault" component={ArgonAssault} />
+
+        <Route path="/projects/unity/project-boost" component={ProjectBoost} />
         <Route
           path="/projects/bootstrap/mother-nature"
           component={MotherNature}

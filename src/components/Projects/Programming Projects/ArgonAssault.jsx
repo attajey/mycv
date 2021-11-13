@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { NavLink } from "react-router-dom";
 
 const MyCv = () => {
   return (
@@ -6,10 +7,10 @@ const MyCv = () => {
       <div className="container">
         <div className="row">
           <div className="col-12 text-center py-3">
-            <h1>Project Boost</h1>
+            <h1>Argon Assault</h1>
             <video className="project-video" controls>
               <source
-                src="../../images/Projects/Programming Projects/Project Boost.mp4"
+                src="../../images/Projects/Programming Projects/Argon Assault.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video tag.
@@ -18,27 +19,30 @@ const MyCv = () => {
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">
-              This is my first unity project.
+              This is my second unity project.
               <br />
               <br />
-              Project Boost is a simple,"somehow" 3D, game which I created as my
-              first unity project to learn some essential tools and features of
-              Unity engine and C# programming language.
+              After
+              <NavLink to="/projects/unity/project-boost" target="__blank">
+                Project Boost
+              </NavLink>
+              I made Argon Assault, which is a complete 3D game.
               <br />
               <br />
-              There are only two levels in this game just to learn the process
-              for changing scenes in a project.
+              There is only one level in this game just to learn the process for
+              making a 3D world terrain, game physics and automated moving
+              objects.
               <br />
               <br />
               I'm still learning a lot about how Unity works and how I can make
               it even better.
               <br />
               <br />
-              For future work, I want to add more levels to the game and
-              redesign the game. As you can see its not a piece of art, its a
+              For future work, I want to add more levels to the game and design
+              some new enemies. As you can see its not a piece of art, its a
               piece of something else! <br />
               I also want to add some features, such as fuel, bonus points and
-              flying enemies, to the game.
+              some other cool stuff, to the game.
               <br />
               <br />I will constantly update my github repo. You can check it
               out and see the changes in my commits. I will be honored if you
@@ -47,7 +51,7 @@ const MyCv = () => {
 
             <a
               className="link-project-indiv"
-              href="https://github.com/attajey/Project-Boost"
+              href="https://github.com/attajey/Argon-Assault"
               target="__blank"
             >
               <button className="btn btn-dark">find source code here</button>

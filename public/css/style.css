@@ -336,8 +336,7 @@ object {
 .project-video{
     width: 22rem;
     height: 13rem;
-    border: 3px solid;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 
