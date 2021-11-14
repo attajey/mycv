@@ -1,11 +1,3 @@
-/* @font-face {
-    font-family: "BYekan";
-    src: url("../fonts/BYekan-webfont.eot") format("eot"),
-        url("../fonts/BYekan-webfont.woff") format("woff"),
-        url("../fonts/BYekan-webfont.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-} */
 @font-face {
     font-family: Roboto-Regular;
     src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype"),
@@ -24,23 +16,9 @@ body {
     font-family: Roboto-Regular, 'Courier New', Courier, monospace;
     box-sizing: border-box;
     overflow-x: hidden;
-    /* background: url(../images/bgbgbgbg.jpg); */
-    /* background: url(../images/test3.webp);
-
-    background-repeat: no-repeat;
+    background: url(../images/bg3.jpg) no-repeat fixed center center;
+    /* background: url(../images/bg5.jpg); */
     background-size:cover;
-    background-attachment: fixed; */
-
-    background: url(../images/main\ bg\ 1.webp);
-    background: url(../images/bg2.jpg);
-    background: url(../images/bg3.jpg);
-    /* background: url(../images/bg4.jpg); */
-
-    background-clip: border-box;
-background-repeat: no-repeat;
-background-size:cover;
-background-attachment: fixed;
-
 }
 
 /***********Default setting************/
@@ -51,38 +29,18 @@ a:active {
     text-decoration: none;
     outline: 0 !important;
 }
-i,
-span,
-label,
-a {
-    /* display: inline-block; */
-    /* font-weight: normal; */
-}
-ul {
-    list-style: none !important;
-    list-style-type: none !important;
-    margin: 0;
-    padding: 0;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    /* font-size: 15px; */
-    /* margin: 0; */
-    /* padding: 0; */
-}
-img {
-    /* max-width: 100%; */
-}
 hr {
     height: 2px !important;
     opacity: 0.7;
     color: rgba(255, 255, 255, 0.336);
 }
+.btn:hover {
+    color: #63a4c9;
+    background-color: black;
+}
+
 /***********Navbar Setting************/
+
 .navbar {
     font-size: 1.1rem;
 }
@@ -111,13 +69,13 @@ hr {
     height: 1.3rem;
 }
 
-/***********Navbar Setting************/
+/***********Home Setting************/
+
 .gif-home {
-    width: 13rem;
-    height: 8rem;
+    width: 11rem;
+    height: 6rem;
     margin-top: 2rem;
 }
-
 
 /***********All Projects Setting************/
 .badge-icon {
@@ -200,9 +158,8 @@ hr {
 
 }
 
-/***********All Projects Setting************/
-
 /***********About Setting************/
+
 .profile-pic {
     border-radius: 100%;
     width: 24vw;
@@ -212,9 +169,17 @@ hr {
 .icon {
     padding-bottom: 20px;
 }
-/***********About Setting************/
+.skills-icon {
+    width: 1rem;
+    height: 1rem;
+    margin: 0px 5px 0px 0px;
+}
+.badge {
+    margin-bottom: 1px;
+}
 
 /***********Footer Setting************/
+
 .gif-contact{
     width: 7rem;
     height: 5rem;
@@ -280,15 +245,9 @@ hr {
     width: 9rem;
     height: 6rem;
 }
-/***********Footer Setting************/
-
-
-.btn:hover {
-    color: #63a4c9;
-    background-color: black;
-}
 
 /***********Projects Detail Setting************/
+
 .img-project-main {
     width: 17rem;
     height: auto;
@@ -335,8 +294,6 @@ object {
     margin-top: -3rem;
 }
 
-
-
 .img-project-indiv {
     width: 20rem;
     height: 12rem;
@@ -369,19 +326,7 @@ object {
     border-radius: 10px;
 }
 
-
-
-/***********About Me************/
-.skills-icon {
-    width: 1rem;
-    height: 1rem;
-    margin: 0px 5px 0px 0px;
-}
-.badge {
-    margin-bottom: 1px;
-}
-
-/* CONTACT */
+/***********Contact Setting************/
 
 .contact-links {
     color: #63a4c9;
@@ -389,69 +334,10 @@ object {
 }
 
 /***********Media Queries************/
-/* @media all and (max-width: 375px) {
-    body {
-        background: url(../images/main\ bg\ 5.png);
 
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-
-    }
-}
-
-@media all and (min-width: 376px) and (max-width: 575px) {
-    body {
-        background: url(../images/main\ bg\ 5.png);
-
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-
-    }
-}
-@media all and (min-width: 576px) and (max-width: 767px) {
-    body {
-        background: url(../images/main\ bg\ 4.png);
-
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-
-    }
-}
-@media all and (min-width: 768px) and (max-width: 991px) {
-    body {
-        background: url(../images/main\ bg\ 3.png);
-
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-
-    }
-}
-@media all and (min-width: 992px) and (max-width: 1199px) {
-    body {
-        background: url(../images/main\ bg\ 2.png);
-
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-
-    }
-}
-@media all and (min-width: 1200px) {
-    body {
-        background: url(../images/main\ bg\ 1.webp);
-        background: url(../images/bg2.jpg);
-        background: url(../images/bg3.jpg);
-        background: url(../images/bg4.jpg);
-
-        background-clip: border-box;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-attachment: fixed;
-
-    }
-
-} */
+@media all and (max-width: 375px) {}
+@media all and (min-width: 376px) and (max-width: 575px) {}
+@media all and (min-width: 576px) and (max-width: 767px) {}
+@media all and (min-width: 768px) and (max-width: 991px) {}
+@media all and (min-width: 992px) and (max-width: 1199px) {}
+@media all and (min-width: 1200px) {}

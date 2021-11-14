@@ -31,7 +31,7 @@ const TopNav = () => {
               >
                 <i className="fa fa-home p-2"></i>
                 Home
-              </NavLink>{" "}
+              </NavLink>
             </li>
             <li className="nav-item dropdown p-2">
               <NavLink
@@ -181,19 +181,6 @@ const TopNav = () => {
                   </NavLink>
                 </li>
                 <hr className="dropdown-divider" />
-                {/* <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/projects/react/todo-app"
-                  >
-                    <img
-                      className="icon-menu-projects"
-                      src="./images/Projects/icons/other shit.png"
-                      alt="Other Shit"
-                    />
-                    &#160;Todo App
-                  </NavLink>
-                </li> */}
                 <li>
                   <NavLink
                     className="dropdown-item"
@@ -244,7 +231,7 @@ const TopNav = () => {
               >
                 <i className="fa fa-info p-2"></i>
                 About Me
-              </NavLink>{" "}
+              </NavLink>
             </li>
             <li className="nav-item p-2">
               <NavLink

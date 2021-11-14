@@ -52,15 +52,9 @@ const Footer = () => {
           <div className="col-12 col-lg-2 pt-3">
             <img
               className="gif-footer"
-              // src="images/test gifs/6.gif"
               src="images/dina.gif"
               alt="Footer Gif"
             />
-            {/* <img
-              className="gif-footer"
-              src="images/programmers.gif"
-              alt="Architect Gif"
-            /> */}
           </div>
           <div className="col-12 col-lg-5 pt-3">
             <h5 className="text-uppercase pb-3 ">Quick Access</h5>
@@ -95,7 +89,7 @@ const Footer = () => {
         <div className="col-12">
           <a
             className="text-info"
-            href="https://attajey.github.io/My-CV/"
+            href="https://github.com/attajey"
             target="__blank"
           >
             <p className="btn btn-dark">
