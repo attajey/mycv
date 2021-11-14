@@ -8,11 +8,7 @@ const MainLayout = (props) => {
   return (
     <Fragment>
       <TopNav />
-
-      <main className="background-gradient">
-        <div className="container-fluid">{props.children}</div>
-      </main>
-
+      <main className="container-fluid text-white">{props.children}</main>
       <Footer />
     </Fragment>
   );

@@ -57,6 +57,11 @@ const About = () => {
               RESET
             </button>
           </form>
+          <img
+            className="gif-menu"
+            src="images/test gifs/7.gif"
+            alt="Architect Gif"
+          />
         </div>
         <div className="col-md-6 col-12 contact-section">
           <div className="contact">

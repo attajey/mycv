@@ -7,7 +7,12 @@ const Home = ({ title }) => {
     <Fragment>
       <section className="row text-center">
         <div className="col-12 p-0">
-          <h1 className="pt-5">Howdy</h1>
+          <img
+            className="pt-2 gif-menu"
+            src="images/skull-lap.gif"
+            alt="Architect Gif"
+          />
+          <h1 className="">Howdy</h1>
           <h3>
             <div className="pt-3 fs-3">
               <Typer dataText={["I'm Atta Jirofty", "Call Me Jimi"]} />
@@ -37,11 +42,15 @@ const Home = ({ title }) => {
                     Checkout My Projects
                   </button>
                 </NavLink>
-                <NavLink className="p-1" to="/projects">
+                <a
+                  className="p-1"
+                  href="https://github.com/attajey"
+                  target="__blank"
+                >
                   <button type="button" className="btn btn-dark mb-5">
-                    Checkout My Github repo
+                    Checkout My GitHub repo
                   </button>
-                </NavLink>
+                </a>
               </div>
             </div>
           </div>
@@ -49,7 +58,35 @@ const Home = ({ title }) => {
       </section>
       <section className="row text-center">
         <div className="col-12 gif-container ">
-          <img className="img-fluid" src="images/gif.gif" alt="Architect Gif" />
+          {/* <img className="img-fluid" src="images/gif.gif" alt="Architect Gif" /> */}
+          {/* <img
+            className="img-fluid"
+            src="images/test gifs/1.gif"
+            alt="Architect Gif"
+          /> */}
+          {/* <img
+            className="img-fluid"
+            src="images/test gifs/2.gif"
+            alt="Architect Gif"
+          /> */}
+          {/* <img
+            className="img-fluid"
+            src="images/test gifs/3.gif"
+            alt="Architect Gif"
+          /> */}
+
+          <img
+            className="img-fluid"
+            src="images/test gifs/5.gif"
+            alt="Architect Gif"
+          />
+
+          {/* 
+          <img
+            className="img-fluid"
+            src="images/giphy.gif"
+            alt="Architect Gif"
+          /> */}
         </div>
       </section>
     </Fragment>

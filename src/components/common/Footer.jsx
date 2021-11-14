@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="container-fluid bg-dark text-center text-white pt-5">
+    <footer className="container-fluid bg-dark text-center text-white pt-4">
       <section>
         <div className="row">
-          <div className="col-12 col-lg-6 pb-3">
+          <div className="col-12 col-lg-5 pb-3">
             <h5 className="text-uppercase pb-3">Social Media</h5>
             <a
               className="btn btn-outline-light btn-floating m-1 social-btn"
@@ -49,7 +49,19 @@ const Footer = () => {
               <i className="fa fa-github"></i>
             </a>
           </div>
-          <div className="col-12 col-lg-6 pt-3">
+          <div className="col-12 col-lg-2 pt-3">
+            <img
+              className="gif-footer"
+              src="images/test gifs/6.gif"
+              alt="Architect Gif"
+            />
+            {/* <img
+              className="gif-footer"
+              src="images/programmers.gif"
+              alt="Architect Gif"
+            /> */}
+          </div>
+          <div className="col-12 col-lg-5 pt-3">
             <h5 className="text-uppercase pb-3 ">Quick Access</h5>
             <ul className="list-unstyled pb-3 ">
               <li className="p-2">

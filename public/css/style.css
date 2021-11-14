@@ -31,8 +31,18 @@ body {
     background-size:cover;
     background-attachment: fixed; */
 
+    background: url(../images/main\ bg\ 1.webp);
+    background: url(../images/bg2.jpg);
+    background: url(../images/bg3.jpg);
+    /* background: url(../images/bg4.jpg); */
+
+    background-clip: border-box;
+background-repeat: no-repeat;
+background-size:cover;
+background-attachment: fixed;
 
 }
+
 /***********Default setting************/
 
 a:link,
@@ -99,11 +109,26 @@ hr {
     width: 1.3rem;
     height: 1.3rem;
 }
+.gif-menu {
+    width: 13rem;
+    height: 8rem;
+}
 /***********Navbar Setting************/
 
 
 
 /***********All Projects Setting************/
+.badge-icon {
+    width: 1rem;
+    height: 1rem;
+}
+.badge-container {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    width: fit-content;
+    transition: all 0.5s ease;
+}
 .icon-projects {
     width: 7rem;
     height: 5.3rem;
@@ -120,7 +145,7 @@ hr {
     width: 100%;
     height: auto;
     border-radius: 15px;
-    border: 2px solid black;
+    border: 1px solid whitesmoke;
     transition: all 0.8s ease;
     cursor: pointer;
 }
@@ -133,19 +158,19 @@ hr {
 }
 .middle {
     width: 15rem;
-    height: 8rem;
-    padding: 30px 0px;
+    height: 4rem;
+    padding: 10px 0px;
     transition: all 0.5s ease;
     opacity: 1;
     position: absolute;
-    top: 50%;
+    top: 84%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     color: whitesmoke;
     border-radius: 10px;
-    background-color: rgba(0, 0, 0, 0.685);
+    background-color: rgba(45, 45, 45, 0.69);
 
 }
 .middle h5 {
@@ -155,14 +180,17 @@ hr {
 
 
 .img-middle-div:hover{
-    border-radius: 0;
+    border-radius: 5px;
 
 }
 .img-middle-div:hover .img-projects-present{
-    border-radius: 0;
+    border-radius: 5px;
     filter: blur(3px) grayscale(100%);
     /* filter:grayscale(100%); */
 
+}
+.img-middle-div:hover .badge-container {
+    transform: scale(2.0,2.0);
 }
 
 .img-projects {
@@ -248,6 +276,10 @@ hr {
 }
 .social-btn:hover {
     background-color: #63a4c9;
+}
+.gif-footer {
+    width: 9rem;
+    height: 6rem;
 }
 /***********Footer Setting************/
 
@@ -358,7 +390,7 @@ object {
 }
 
 /***********Media Queries************/
-@media all and (max-width: 375px) {
+/* @media all and (max-width: 375px) {
     body {
         background: url(../images/main\ bg\ 5.png);
 
@@ -412,13 +444,15 @@ object {
 @media all and (min-width: 1200px) {
     body {
         background: url(../images/main\ bg\ 1.webp);
-        /* background: url(../images/test.jpg); */
+        background: url(../images/bg2.jpg);
+        background: url(../images/bg3.jpg);
+        background: url(../images/bg4.jpg);
 
-
+        background-clip: border-box;
     background-repeat: no-repeat;
     background-size:cover;
     background-attachment: fixed;
 
     }
 
-}
+} */
