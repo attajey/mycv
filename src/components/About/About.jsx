@@ -18,11 +18,11 @@ const About = () => {
         <div className="p-4">
           <Typer dataText={[" C'est moi ! "]} />
         </div>
-        <NavLink to="#" target="__blank">
+        <a href="./images/About me/Atta's CV.pdf" target="__blank">
           <button className="btn btn-dark fa fa-download fa-1x">
             &#160;&#160;Download My CV
           </button>
-        </NavLink>
+        </a>
       </div>
       <div className="row pt-5">
         <div className="col-12 px-5 fs-5">
@@ -61,9 +61,9 @@ const About = () => {
                     <p className="ps-2">Computer Systems Architecture T.A.</p>
                   </div>
                   <p className="ps-5">
-                    Assisted my professor, Dr. Matin Khah, for 4 semester
-                    regarding problem solving, grading, tarahi proje ing va
-                    tamrining.
+                    Assisted my professor, Dr. Matin Khah, for four semesters
+                    regarding designing and grading projects and assignments for
+                    the Computer System Architecture (CSA) course.
                   </p>
                 </div>
               </div>
@@ -417,7 +417,7 @@ const About = () => {
               <p className="fs-6 ps-4">&#160;Apr 2018</p>
               <div className="d-flex flex-row ps-4">
                 <i className="fa fa-circle pt-1"></i>
-                <p className="ps-2">Editor in Chief & Editorial Board</p>
+                <p className="ps-2">Editor in Chief and Editorial Board</p>
               </div>
               <p className="ps-5">
                 A magazine for C.Eng. students of Yazd University to read all

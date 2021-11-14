@@ -162,8 +162,8 @@ hr {
 
 .profile-pic {
     border-radius: 100%;
-    width: 24vw;
-    height: 24vw;
+    width: 15rem;
+    height: 15rem;
     border: 3px solid;
 }
 .icon {
@@ -238,8 +238,13 @@ hr {
     border-bottom: 2px solid #63a4c9;
     color: #63a4c9;
 }
+.social-btn{
+    transition: all 0.8s ease;
+}
 .social-btn:hover {
-    background-color: #63a4c9;
+    background-color: #000000;
+    border-color: transparent;
+    border-radius: 100%;
 }
 .gif-footer {
     width: 9rem;
