@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
 
 const ProfileInternTask = () => {
+  document.title = "Profile Intern Task";
+
   return (
     <Fragment>
       <div className="container">

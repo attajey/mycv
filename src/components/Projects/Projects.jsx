@@ -17,7 +17,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/archi-cv-sample">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/react.png"
@@ -54,7 +54,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/my-cv">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/react.png"
@@ -91,7 +91,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/html-css-js/profile-intern-task">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/html5.png"
@@ -123,7 +123,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/bootstrap/mother-nature">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/html5.png"
@@ -173,7 +173,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/unity/realm-rush">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/unity.png"
@@ -200,7 +200,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/unity/argon-assault">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/unity.png"
@@ -227,7 +227,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/unity/project-boost">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/unity.png"
@@ -254,7 +254,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/cplus/tetris-game">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/cplus.png"
@@ -276,7 +276,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/cplus/accounting-software">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/cplus.png"
@@ -298,7 +298,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/cplus/arduino/parking-sensor">
               <div className="img-middle-div">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/cplus.png"
@@ -338,7 +338,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/person-manager">
               <div className="img-middle-div text-center">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/react.png"
@@ -375,7 +375,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/robo-friends">
               <div className="img-middle-div text-center">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/react.png"
@@ -412,7 +412,7 @@ const Projects = () => {
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/html-css-js/bg-generator">
               <div className="img-middle-div text-center">
-                <span class="badge rounded-pill bg-dark badge-container">
+                <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
                     src="./images/About Me/skills icons/html5.png"

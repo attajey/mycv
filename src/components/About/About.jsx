@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import Typer from "react-animated-typer";
-import { NavLink } from "react-router-dom";
 
 const About = () => {
   document.title = "About Me";

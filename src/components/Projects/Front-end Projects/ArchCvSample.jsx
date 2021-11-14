@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 import { NavLink } from "react-router-dom";
 
 const ArchCvSample = () => {
+  document.title = "Architecture Portfolio";
   return (
     <Fragment>
       <div className="container">
@@ -15,7 +16,7 @@ const ArchCvSample = () => {
         </div>
         <div className="row">
           <div className="col-12 text-center py-3">
-            <h1>Architecture CV Sample</h1>
+            <h1>Architecture Portfolio</h1>
             <img
               className="img-project-indiv"
               src="../../images/Projects/Front-end Projects/arch-cv-sample.png"
