@@ -55,11 +55,7 @@ const Home = ({ title }) => {
       </section>
       <section className="row text-center">
         <div className="col-12 gif-container">
-          <img
-            className="img-fluid"
-            src="images/test gifs/5.gif"
-            alt="Home Gif"
-          />
+          <img className="img-fluid" src="images/5.gif" alt="Home Gif" />
         </div>
       </section>
     </Fragment>
