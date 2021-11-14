@@ -37,11 +37,10 @@ const MyCv = () => {
               it even better.
               <br />
               <br />
-              When I first started this project, it was a pure
-              <abbr title="World Health Organization">HTML, </abbr>
-              <abbr title="Cascading Style Sheets">CSS, </abbr>
-              <abbr title="JavaScripts">JS, </abbr>
-              project
+              When I first started this project, it was a pure{" "}
+              <abbr title="World Health Organization">HTML</abbr>,{" "}
+              <abbr title="Cascading Style Sheets">CSS</abbr>,{" "}
+              <abbr title="JavaScripts">JS</abbr>, project
               <a
                 className="link-project-indiv"
                 href="https://github.com/attajey/My-CV"
