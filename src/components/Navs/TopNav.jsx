@@ -181,7 +181,7 @@ const TopNav = () => {
                   </NavLink>
                 </li>
                 <hr className="dropdown-divider" />
-                <li>
+                {/* <li>
                   <NavLink
                     className="dropdown-item"
                     to="/projects/react/todo-app"
@@ -193,7 +193,7 @@ const TopNav = () => {
                     />
                     &#160;Todo App
                   </NavLink>
-                </li>
+                </li> */}
                 <li>
                   <NavLink
                     className="dropdown-item"

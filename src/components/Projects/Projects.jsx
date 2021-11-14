@@ -19,7 +19,8 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/react.png"
+                  // src="./images/Projects/react.png"
+                  src="./images/Projects/arch-cv.png"
                   alt="Architecture CV Sample"
                 />
                 <div className="middle">
@@ -34,7 +35,8 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/react.png"
+                  // src="./images/Projects/react.png"
+                  src="./images/Projects/my-cv.png"
                   alt="My CV"
                 />
                 <div className="middle">
@@ -49,7 +51,8 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/html-css-js.png"
+                  // src="./images/Projects/html-css-js.png"
+                  src="./images/Projects/profile-task.png"
                   alt="My CV"
                 />
                 <div className="middle">
@@ -64,7 +67,8 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/bootstrap.png"
+                  // src="./images/Projects/bootstrap.png"
+                  src="./images/Projects/mother-nature.png"
                   alt="Mother Nature"
                 />
                 <div className="middle">
@@ -107,7 +111,8 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/unity-csharp.jpeg"
+                  // src="./images/Projects/unity-csharp.jpeg"
+                  src="./images/Projects/argon-assault.png"
                   alt="Unity Project"
                 />
                 <div className="middle">
@@ -122,7 +127,8 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/unity-csharp.jpeg"
+                  // src="./images/Projects/unity-csharp.jpeg"
+                  src="./images/Projects/project-boost.png"
                   alt="Unity Project"
                 />
                 <div className="middle">
@@ -190,7 +196,7 @@ const Projects = () => {
           <h2 className="pb-4">Other Stuff</h2>
         </div>
         <div className="row">
-          <div className="col-12 col-sm-6 col-lg-3 projects-items">
+          {/* <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/todo-app">
               <div className="img-middle-div text-center">
                 <img
@@ -204,13 +210,14 @@ const Projects = () => {
                 </div>
               </div>
             </NavLink>
-          </div>
+          </div> */}
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/person-manager">
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/react.png"
+                  // src="./images/Projects/react.png"
+                  src="./images/Projects/person-manager.png"
                   alt="Person Manager"
                 />
                 <div className="middle">
@@ -225,7 +232,8 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/react.png"
+                  // src="./images/Projects/react.png"
+                  src="./images/Projects/robofriends.png"
                   alt="My CV"
                 />
                 <div className="middle">
@@ -240,7 +248,8 @@ const Projects = () => {
               <div className="img-middle-div text-center">
                 <img
                   className="img-projects-present"
-                  src="./images/Projects/html-css-js.png"
+                  // src="./images/Projects/html-css-js.png"
+                  src="./images/Projects/bg-generator.png"
                   alt="BG Generator"
                 />
                 <div className="middle">

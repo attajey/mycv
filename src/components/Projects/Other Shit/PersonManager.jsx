@@ -16,26 +16,24 @@ const MyCv = () => {
         <div className="row">
           <div className="col-12 text-center py-3">
             <h1>Person Manager</h1>
-            {/* <video className="project-video" controls>
-              <source
-                src="../../images/Projects/Programming Projects/Argon Assault.mp4"
-                type="video/mp4"
-              />
-              Your browser does not support the video tag.
-            </video> */}
+            <img
+              className="img-project-indiv"
+              src="../../images/Projects/Other Shits/person-manager.png"
+              alt="Architecture CV Sample"
+            />
           </div>
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">
               This is a simple React app to practice some of the necessary
               features of this cool framework.
-              <br />
+              {/* <br />
               It's very similar to
               <NavLink className="text-success" to="todo-app">
                 {" "}
                 Todo App{" "}
               </NavLink>
-              project.
+              project. */}
               <br />
               <br />
               You can add or delete a person and also change its name in
