@@ -25,7 +25,7 @@ const MyCv = () => {
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">
-              This is just a simple practice on how to use css gradient
+              This is just a simple practice on how to use CSS gradient
               property.
               <br />
               <br />

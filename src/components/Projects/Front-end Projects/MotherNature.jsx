@@ -28,27 +28,27 @@ const ProfileInternTask = () => {
               This is the first time that I tried to use Bootstrap.
               <br />
               <br />
-              I was just introduced to Bootstrap framework and it realy dazeled
-              me that how easy to use this framework is. I realized that I can
-              develop a website with a much higher speed.
+              I was just introduced to Bootstrap framework and it dazzled me
+              that how easy to use this framework is. I realized that I can
+              develop a website at a much higher speed.
               <br />
               <br />
-              Also I used <a href="https://animate.style/">Animate.css</a> for
-              some animations in this website, and I used{" "}
+              Also, I used <a href="https://animate.style/">Animate.css</a> for
+              some animations on this website, and I used
               <a href="https://wowjs.uk/">wow.js</a> to reveal animation only
-              when you scroll in page.
+              when you scroll on a page.
               <br />
               <br />
-              This project has its own design bugs, but I didnt updated it to
+              This project has its own design bugs, but I didn't update it to
               leave it as a reminder to me that this project was your first one!
-              look what you can do now !
+              look what you can do now!
               <br />
               <br />
-              But there are disadvantages i this framework eaither. To redefine
-              some css classes you should use !important, which is a disaster.
-              Also you dont have much options to implement different designs for
-              each component. For example there are only three Navbars that are
-              very simillar other than their background color.
+              But there are disadvantages to this framework either. To redefine
+              some CSS classes you should use !important, which is a disaster.
+              Also, you don't have many options to implement different designs
+              for each component. For example, there are only three Navbars that
+              are very similar other than their background color.
               <br />
               <br />
             </p>

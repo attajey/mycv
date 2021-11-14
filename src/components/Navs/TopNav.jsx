@@ -55,7 +55,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/university/youth-cultural-center"
+                    to="/projects/react/archi-cv-sample"
                   >
                     <img
                       className="icon-menu-projects"
@@ -66,10 +66,7 @@ const TopNav = () => {
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/projects/university/residential-complex"
-                  >
+                  <NavLink className="dropdown-item" to="/projects/react/my-cv">
                     <img
                       className="icon-menu-projects"
                       src="./images/Projects/icons/front end.png"
@@ -81,7 +78,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/university/four-star-hotel"
+                    to="/projects/html-css-js/profile-intern-task"
                   >
                     <img
                       className="icon-menu-projects"
@@ -94,7 +91,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/university/four-star-hotel"
+                    to="/projects/bootstrap/mother-nature"
                   >
                     <img
                       className="icon-menu-projects"
@@ -104,37 +101,11 @@ const TopNav = () => {
                     &#160;Mother Nature
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/projects/university/four-star-hotel"
-                  >
-                    <img
-                      className="icon-menu-projects"
-                      src="./images/Projects/icons/front end.png"
-                      alt="Front-end Projects"
-                    />
-                    &#160;Pet Nurse
-                  </NavLink>
-                </li>
                 <hr className="dropdown-divider" />
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/research/balkhast-house"
-                  >
-                    <img
-                      className="icon-menu-projects"
-                      src="./images/Projects/icons/programming.png"
-                      alt="Programming Projects"
-                    />
-                    &#160;Realm Rush
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    className="dropdown-item"
-                    to="/projects/research/five-renovation-projects"
+                    to="/projects/unity/project-boost"
                   >
                     <img
                       className="icon-menu-projects"
@@ -147,7 +118,33 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/research/sustainable-rural-development"
+                    to="/projects/unity/argon-assault"
+                  >
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/programming.png"
+                      alt="Programming Projects"
+                    />
+                    &#160;Argon Assault
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/projects/unity/realm-rush"
+                  >
+                    <img
+                      className="icon-menu-projects"
+                      src="./images/Projects/icons/programming.png"
+                      alt="Programming Projects"
+                    />
+                    &#160;Realm Rush
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    className="dropdown-item"
+                    to="/projects/cplus/tetris-game"
                   >
                     <img
                       className="icon-menu-projects"
@@ -160,7 +157,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/university/four-star-hotel"
+                    to="/projects/cplus/accounting-software"
                   >
                     <img
                       className="icon-menu-projects"
@@ -173,7 +170,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/university/four-star-hotel"
+                    to="/projects/cplus/arduino/parking-sensor"
                   >
                     <img
                       className="icon-menu-projects"
@@ -187,7 +184,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/fun/drawings"
+                    to="/projects/react/todo-app"
                   >
                     <img
                       className="icon-menu-projects"
@@ -200,7 +197,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/fun/sketches"
+                    to="/projects/react/person-manager"
                   >
                     <img
                       className="icon-menu-projects"
@@ -213,7 +210,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/fun/software-practice"
+                    to="/projects/react/robo-friends"
                   >
                     <img
                       className="icon-menu-projects"
@@ -226,7 +223,7 @@ const TopNav = () => {
                 <li>
                   <NavLink
                     className="dropdown-item"
-                    to="/projects/university/four-star-hotel"
+                    to="/projects/html-css-js/bg-generator"
                   >
                     <img
                       className="icon-menu-projects"

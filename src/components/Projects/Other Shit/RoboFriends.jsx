@@ -25,14 +25,14 @@ const MyCv = () => {
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">
-              This is a simple React practice. I used APIs to retrive robot
+              This is a simple React practice. I used APIs to retrieve robot
               pictures and IDs.
               <br /> <br />
               There is a search bar that you can search for a specific name, and
-              it will filter robots for you to find your true robot friend !
+              it will filter robots for you to find your true robot friend!
               <br />
               <br />
-              After all we do need a friend...
+              After all, we do need a friend...
             </p>
             <a
               className="link-project-indiv"

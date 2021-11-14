@@ -27,16 +27,20 @@ const MyCv = () => {
             <p className="p-project-indiv">
               This is my second React base website.
               <br />
-              <br />I did my best to implement all the standard methods for
-              making a React App, but I'm still working on it to make a pure,
-              standard, state of the art React project.
+              <br />
+              I did my best to implement all the standard methods for making a
+              React App, but I'm still working on it to make a pure, standard,
+              state-of-the-art React project.
               <br />
               <br />
               I'm still learning a lot about how React works and how I can make
               it even better.
               <br />
               <br />
-              When I first started this project, it was a pure html,css,js
+              When I first started this project, it was a pure
+              <abbr title="World Health Organization">HTML, </abbr>
+              <abbr title="Cascading Style Sheets">CSS, </abbr>
+              <abbr title="JavaScripts">JS, </abbr>
               project
               <a
                 className="link-project-indiv"
@@ -46,16 +50,16 @@ const MyCv = () => {
                 (find source code here)
               </a>
               but after I learned more about React, I decided to start from
-              skratch and make a duplicate project by using React and better css
-              styling. My css code lines where half the before after I
-              reconsidered all of it.
+              scratch and make a duplicate project by using React and better CSS
+              styling. My CSS code lines were half after I reconsidered it.
               <br />
               <br />
               For future work, I want to completely separate the components from
               each other. Right now for example, if you want to make a change in
-              image galleries that is used in different pages, you should change
-              it in each component one by one, which is absolutely now following
-              the DRY philosephy. Other future changes are similar to this one.
+              image galleries that are used on different pages, you should
+              change it in each component one by one, which is absolutely now
+              following the DRY philosephy. Other future changes are similar to
+              this one.
               <br />
               <br />I will constantly update my github repo. You can check it
               out and see the changes in my commits. I will be honored if you

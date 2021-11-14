@@ -27,15 +27,19 @@ const MyCv = () => {
           <div className="col-12 pb-5">
             <h2>About This Project</h2>
             <p className="p-project-indiv">
-              This is a simple React app to practice some of neseccery features
-              of this cool framework.
+              This is a simple React app to practice some of the necessary
+              features of this cool framework.
               <br />
-              its very similar to
-              <NavLink to="person-manager">Person Manager </NavLink>
+              It's very similar to
+              <NavLink className="text-success" to="person-manager">
+                {" "}
+                Person Manager{" "}
+              </NavLink>
               project.
               <br />
               <br />
-              You can add or delete your tasks and also change them real-time.
+              You can add or delete your tasks and also change them in
+              real-time.
               <br />
               <br />I also used Toastify to display some cool notifications when
               you add or delete a task.

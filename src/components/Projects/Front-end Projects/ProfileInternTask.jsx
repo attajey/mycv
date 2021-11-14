@@ -28,15 +28,15 @@ const ProfileInternTask = () => {
               This is my Internship task in Profile Compay.
               <br />
               <br />
-              My task was to implement this website by only using Flexbox, to
-              make it responsive for all resolutions. I did my best to do that.
+              My task was to implement this website only by using Flexbox to
+              make a fully responsive design. I did my best to do that...
               <br />
               <br />
-              No Bootstrap or other frameworks were used in this project.
+              I didn't use Bootstrap or any other frameworks in this project.
               <br />
               <br />
               It was a great practice to understand Flexbox and its capabilities
-              thourouly.
+              thoroughly.
               <br />
               <br />
               <a
