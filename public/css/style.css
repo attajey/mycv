@@ -78,8 +78,9 @@ img {
     /* max-width: 100%; */
 }
 hr {
-    height: 3px !important;
+    height: 2px !important;
     opacity: 0.7;
+    color: rgba(255, 255, 255, 0.336);
 }
 /***********Navbar Setting************/
 .navbar {
@@ -109,12 +110,13 @@ hr {
     width: 1.3rem;
     height: 1.3rem;
 }
-.gif-menu {
+
+/***********Navbar Setting************/
+.gif-home {
     width: 13rem;
     height: 8rem;
+    margin-top: 2rem;
 }
-/***********Navbar Setting************/
-
 
 
 /***********All Projects Setting************/
@@ -123,17 +125,21 @@ hr {
     height: 1rem;
 }
 .badge-container {
-    display: flex;
-    justify-content: center;
+    display: block;
     margin:auto;
     width: fit-content;
     transition: all 0.5s ease;
+    position: relative;
+    top: 0%;
+    z-index: 3;
 }
+
 .icon-projects {
     width: 7rem;
     height: 5.3rem;
     margin: auto;
 }
+
 .projects-items {
     position: relative;
     display: flex;
@@ -145,31 +151,26 @@ hr {
     width: 100%;
     height: auto;
     border-radius: 15px;
-    border: 2px solid rgba(245, 245, 245, 0.288);
+    border: 2px solid rgba(245, 245, 245, 0.137);
     transition: all 0.8s ease;
     cursor: pointer;
 }
 .img-projects-present {
     width: 15rem;
     height: 15rem;
-    border-radius: 12px;
-    transition: all 0.8s ease;
-    cursor: pointer;
+    transition: all 0.5s ease;
 }
 .middle {
     width: 15rem;
     height: 4rem;
     padding: 10px 0px;
     transition: all 0.5s ease;
-    opacity: 1;
     position: absolute;
-    top: 84%;
+    top: 84.8%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    color: whitesmoke;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: rgba(45, 45, 45, 0.69);
 
 }
@@ -178,32 +179,25 @@ hr {
     font-size: large;
 }
 
-
 .img-middle-div:hover{
     border-radius: 5px;
+    border-color: rgba(245, 245, 245, 0.493);
+    
 
 }
 .img-middle-div:hover .img-projects-present{
     border-radius: 5px;
-    filter: blur(3px) grayscale(100%);
-    /* filter:grayscale(100%); */
+    filter: blur(3px) grayscale(80%);
 
 }
 .img-middle-div:hover .badge-container {
     transform: scale(2.0,2.0);
+    top: 20%;
 }
+.img-middle-div:hover .middle {
+    top: 50%;
+    background-color: rgba(45, 45, 45, 0.884);
 
-.img-projects {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-    border: 1px solid;
-    transition: all 0.5s ease;
-    cursor: pointer;
-}
-.img-projects:hover{
-    opacity: 0.8;
-    border-radius: 0;
 }
 
 /***********All Projects Setting************/
@@ -221,6 +215,11 @@ hr {
 /***********About Setting************/
 
 /***********Footer Setting************/
+.gif-contact{
+    width: 7rem;
+    height: 5rem;
+    margin-left: 1rem;
+}
 .contact-icon {
     font-size: 1.2rem !important;
     padding: 10px 10px;

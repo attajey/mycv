@@ -57,7 +57,6 @@ const About = () => {
               RESET
             </button>
           </form>
-          <img className="gif-menu" src="images/dina.gif" alt="Architect Gif" />
         </div>
         <div className="col-md-6 col-12 contact-section">
           <div className="contact">

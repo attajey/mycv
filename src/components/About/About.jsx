@@ -83,7 +83,7 @@ const About = () => {
                     </p>
                   </div>
                   <p className="ps-5">
-                    Responsible for holding all seminars,festivals and science
+                    Responsible for holding all seminars, festivals, and science
                     trips for C.Eng. students.
                   </p>
                 </div>
@@ -102,8 +102,8 @@ const About = () => {
                     </p>
                   </div>
                   <p className="ps-5">
-                    Research on hardware requirements and protocols for IoT
-                    based companies.
+                    Research on hardware requirements and protocols for
+                    IoT-based companies.
                   </p>
                 </div>
               </div>
@@ -364,7 +364,7 @@ const About = () => {
                     <p className="ps-2">IRSAFAM Institute</p>
                   </div>
                   <p className="ps-5">
-                    Holder of IIELTS degree with overall band score of 7
+                    Holder of IELTS degree - overall band score of 7
                   </p>
                   <a
                     className="ps-5 text-info"
@@ -391,7 +391,7 @@ const About = () => {
                     <p className="ps-2">Technical And Vocational Department</p>
                   </div>
                   <p className="ps-5">
-                    Atained a 130 hour course at Iran Technical-Vocational
+                    Attained a 130 hour course at Iran Technical-Vocational
                     Training Organization (ITVTO).
                   </p>
                   <a
@@ -421,7 +421,7 @@ const About = () => {
               </div>
               <p className="ps-5">
                 A magazine for C.Eng. students of Yazd University to read all
-                about Technology, News, Interviews with professors, Festivals
+                about Technology, News, Interviews with professors, Festivals,
                 and Educational topics.
               </p>
               <a

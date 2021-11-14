@@ -52,8 +52,9 @@ const Footer = () => {
           <div className="col-12 col-lg-2 pt-3">
             <img
               className="gif-footer"
-              src="images/test gifs/6.gif"
-              alt="Architect Gif"
+              // src="images/test gifs/6.gif"
+              src="images/dina.gif"
+              alt="Footer Gif"
             />
             {/* <img
               className="gif-footer"

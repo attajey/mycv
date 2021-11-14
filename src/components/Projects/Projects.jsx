@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="row">
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/archi-cv-sample">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -41,9 +41,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/react.png"
-                  // src="./images/Projects/arch-cv.png"
-                  src="https://robohash.org/react?300x300"
+                  src="./images/Projects/react.png"
                   alt="Architecture Portfolio"
                 />
                 <div className="middle">
@@ -55,7 +53,7 @@ const Projects = () => {
           </div>
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/my-cv">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -80,9 +78,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/react.png"
-                  // src="./images/Projects/my-cv.png"
-                  src="https://robohash.org/react?300x300"
+                  src="./images/Projects/react.png"
                   alt="My CV"
                 />
                 <div className="middle">
@@ -94,7 +90,7 @@ const Projects = () => {
           </div>
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/html-css-js/profile-intern-task">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -114,9 +110,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/html-css-js.png"
-                  // src="./images/Projects/profile-task.png"
-                  src="https://robohash.org/htmlcssjs?300x300"
+                  src="./images/Projects/htmlcssjs.png"
                   alt="Profile Intern Task"
                 />
                 <div className="middle">
@@ -128,7 +122,7 @@ const Projects = () => {
           </div>
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/bootstrap/mother-nature">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -153,9 +147,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/bootstrap.png"
-                  // src="./images/Projects/mother-nature.png"
-                  src="https://robohash.org/bootstrap?300x300"
+                  src="./images/Projects/bootstrap.png"
                   alt="Mother Nature"
                 />
                 <div className="middle">
@@ -169,7 +161,7 @@ const Projects = () => {
           <hr className="mt-3" />
         </div>
 
-        <div className="row ">
+        <div className="row pt-5 ">
           <img
             className="icon-projects"
             src="./images/Projects/icons/programming 2.png"
@@ -180,7 +172,7 @@ const Projects = () => {
         <div className="row">
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/unity/realm-rush">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -195,8 +187,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/unity-csharp.jpeg"
-                  src="https://robohash.org/unity?300x300"
+                  src="./images/Projects/unity.png"
                   alt="Unity Project"
                 />
                 <div className="middle">
@@ -208,7 +199,7 @@ const Projects = () => {
           </div>
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/unity/argon-assault">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -223,9 +214,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/unity-csharp.jpeg"
-                  // src="./images/Projects/argon-assault.png"
-                  src="https://robohash.org/unity?300x300"
+                  src="./images/Projects/unity.png"
                   alt="Unity Project"
                 />
                 <div className="middle">
@@ -237,7 +226,7 @@ const Projects = () => {
           </div>
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/unity/project-boost">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -252,9 +241,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/unity-csharp.jpeg"
-                  // src="./images/Projects/project-boost.png"
-                  src="https://robohash.org/unity?300x300"
+                  src="./images/Projects/unity.png"
                   alt="Unity Project"
                 />
                 <div className="middle">
@@ -266,7 +253,7 @@ const Projects = () => {
           </div>
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/cplus/tetris-game">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -276,8 +263,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/cplus.png"
-                  src="https://robohash.org/cplus?300x300"
+                  src="./images/Projects/cplus.png"
                   alt="Tetris Game"
                 />
                 <div className="middle">
@@ -289,7 +275,7 @@ const Projects = () => {
           </div>
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/cplus/accounting-software">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -299,8 +285,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/cplus.png"
-                  src="https://robohash.org/cplus?300x300"
+                  src="./images/Projects/cplus.png"
                   alt="Accounting Software"
                 />
                 <div className="middle">
@@ -312,7 +297,7 @@ const Projects = () => {
           </div>
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/cplus/arduino/parking-sensor">
-              <div className="img-middle-div text-center">
+              <div className="img-middle-div">
                 <span class="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
@@ -327,8 +312,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/arduino.jpg"
-                  src="https://robohash.org/arduino?300x300"
+                  src="./images/Projects/arduino.png"
                   alt="Parking Sensor"
                 />
                 <div className="middle">
@@ -341,7 +325,7 @@ const Projects = () => {
           <hr className="mt-3" />
         </div>
 
-        <div className="row ">
+        <div className="row pt-5 ">
           <img
             className="icon-projects"
             src="./images/Projects/icons/other shit 2.png"
@@ -351,21 +335,6 @@ const Projects = () => {
           <h2 className="pb-4">Other Stuff</h2>
         </div>
         <div className="row">
-          {/* <div className="col-12 col-sm-6 col-lg-3 projects-items">
-            <NavLink to="/projects/react/todo-app">
-              <div className="img-middle-div text-center">
-                <img
-                  className="img-projects-present"
-                  src="./images/Projects/react.png"
-                  alt="Todo App"
-                />
-                <div className="middle">
-                  <h4>Todo App</h4>
-                  <h5>Click For Details</h5>
-                </div>
-              </div>
-            </NavLink>
-          </div> */}
           <div className="col-12 col-sm-6 col-lg-3 projects-items">
             <NavLink to="/projects/react/person-manager">
               <div className="img-middle-div text-center">
@@ -393,9 +362,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/react.png"
-                  // src="./images/Projects/person-manager.png"
-                  src="https://robohash.org/react?300x300"
+                  src="./images/Projects/react.png"
                   alt="Person Manager"
                 />
                 <div className="middle">
@@ -432,9 +399,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/react.png"
-                  // src="./images/Projects/robofriends.png"
-                  src="https://robohash.org/react?300x300"
+                  src="./images/Projects/react.png"
                   alt="My CV"
                 />
                 <div className="middle">
@@ -466,9 +431,7 @@ const Projects = () => {
                 </span>
                 <img
                   className="img-projects-present"
-                  // src="./images/Projects/html-css-js.png"
-                  // src="./images/Projects/bg-generator.png"
-                  src="https://robohash.org/htmlcssjs?300x300"
+                  src="./images/Projects/htmlcssjs.png"
                   alt="BG Generator"
                 />
                 <div className="middle">
