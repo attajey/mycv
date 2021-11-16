@@ -14,7 +14,7 @@ const About = () => {
             className=""
             action="mailto:jirofty76@gmail.com"
             method="post"
-            enctype="text/plain"
+            encType="text/plain"
           >
             <div className="mt-2 form-group">
               <input

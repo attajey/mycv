@@ -114,7 +114,7 @@ const About = () => {
               <h3 className="fw-bolder">Skills</h3>
               <div className="row pt-3 px-3">
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/html5.png"
@@ -122,9 +122,9 @@ const About = () => {
                     />
                     HTML 5
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "100%" }}
                     >
@@ -134,7 +134,7 @@ const About = () => {
                 </div>
 
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/css3.png"
@@ -142,9 +142,9 @@ const About = () => {
                     />
                     CSS 3
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "70%" }}
                     >
@@ -153,7 +153,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/js.png"
@@ -161,9 +161,9 @@ const About = () => {
                     />
                     JavaScript
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "50%" }}
                     >
@@ -172,7 +172,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/bootstrap.png"
@@ -180,9 +180,9 @@ const About = () => {
                     />
                     Bootstrap
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "95%" }}
                     >
@@ -191,7 +191,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/react.png"
@@ -199,9 +199,9 @@ const About = () => {
                     />
                     React
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "30%" }}
                     >
@@ -210,7 +210,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/git.png"
@@ -218,9 +218,9 @@ const About = () => {
                     />
                     Git
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "50%" }}
                     >
@@ -229,7 +229,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/csharp.png"
@@ -237,9 +237,9 @@ const About = () => {
                     />
                     C#
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "40%" }}
                     >
@@ -248,7 +248,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/unity.png"
@@ -256,9 +256,9 @@ const About = () => {
                     />
                     Unity
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "30%" }}
                     >
@@ -267,7 +267,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/arduino.png"
@@ -275,9 +275,9 @@ const About = () => {
                     />
                     Arduino
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "70%" }}
                     >
@@ -286,7 +286,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/wordpress.png"
@@ -294,9 +294,9 @@ const About = () => {
                     />
                     Wordpress
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "70%" }}
                     >
@@ -305,7 +305,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/electronics.png"
@@ -313,9 +313,9 @@ const About = () => {
                     />
                     Electronics
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "40%" }}
                     >
@@ -324,7 +324,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="col-12 col-sm-6 col-md-4 py-3">
-                  <span class="badge rounded-pill bg-dark">
+                  <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
                       src="./images/About Me/skills icons/linux.png"
@@ -332,9 +332,9 @@ const About = () => {
                     />
                     Linux
                   </span>
-                  <div class="progress bg-dark">
+                  <div className="progress bg-dark">
                     <div
-                      class="progress-bar progress-bar-striped progress-bar-animated"
+                      className="progress-bar progress-bar-striped progress-bar-animated"
                       role="progressbar"
                       style={{ width: "30%" }}
                     >
