@@ -38,7 +38,7 @@ const MyCv = () => {
               href="https://attajey.github.io/background-generator/"
               target="__blank"
             >
-              <button className="btn btn-dark">find live demo here</button>
+              <button className="btn btn-dark m-2">find live demo here</button>
             </a>
 
             <a
@@ -46,7 +46,9 @@ const MyCv = () => {
               href="https://github.com/attajey/background-generator"
               target="__blank"
             >
-              <button className="btn btn-dark">find source code here</button>
+              <button className="btn btn-dark m-2">
+                find source code here
+              </button>
             </a>
           </div>
         </div>

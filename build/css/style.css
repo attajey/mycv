@@ -16,9 +16,16 @@ body {
     font-family: Roboto-Regular, 'Courier New', Courier, monospace;
     box-sizing: border-box;
     overflow-x: hidden;
-    background: url(../images/bg3.jpg) no-repeat fixed center center;
-    /* background: url(../images/bg5.jpg); */
-    /* background-size:cover; */
+    /* background: url(../images/bg3.jpg); */
+    /* background: url(../images/bg2.jpg); */
+    /* background-color: #171a1d; */
+        background: url(../images/bg.svg);
+
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover; /* safari may need this */
 }
 
 /***********Default setting************/

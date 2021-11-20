@@ -62,7 +62,9 @@ const MyCv = () => {
               href="https://github.com/attajey/Project-Boost"
               target="__blank"
             >
-              <button className="btn btn-dark">find source code here</button>
+              <button className="btn btn-dark m-2">
+                find source code here
+              </button>
             </a>
           </div>
         </div>

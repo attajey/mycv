@@ -247,6 +247,7 @@ const TopNav = () => {
           </ul>
         </div>
       </div>
+      <hr />
     </nav>
   );
 };

@@ -59,14 +59,16 @@ const ProfileInternTask = () => {
               href="https://attajey.github.io/Mother-Nature/"
               target="__blank"
             >
-              <button className="btn btn-dark">find live demo here</button>
+              <button className="btn btn-dark m-2">find live demo here</button>
             </a>
             <a
               className="link-project-indiv"
               href="https://github.com/attajey/Mother-Nature"
               target="__blank"
             >
-              <button className="btn btn-dark">find source code here</button>
+              <button className="btn btn-dark m-2">
+                find source code here
+              </button>
             </a>
           </div>
         </div>
