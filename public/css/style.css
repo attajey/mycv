@@ -18,7 +18,7 @@ body {
     overflow-x: hidden;
     background: url(../images/bg3.jpg) no-repeat fixed center center;
     /* background: url(../images/bg5.jpg); */
-    background-size:cover;
+    /* background-size:cover; */
 }
 
 /***********Default setting************/

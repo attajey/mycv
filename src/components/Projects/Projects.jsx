@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="row">
           <img
             className="icon-projects"
-            src="./images/Projects/icons/front end 2.png"
+            src="./images/Projects/icons/front-end.png"
             alt="Front-end Projects"
           />
           <h2 className="pb-4">Front-end Projects</h2>
@@ -20,22 +20,22 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/react.png"
+                    src="./images/About me/skills-icons/react.png"
                     alt="react icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/html5.png"
+                    src="./images/About me/skills-icons/html5.png"
                     alt="html5 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/css3.png"
+                    src="./images/About me/skills-icons/css3.png"
                     alt="css3 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/bootstrap.png"
+                    src="./images/About me/skills-icons/bootstrap.png"
                     alt="bootstrap icon"
                   />
                 </span>
@@ -57,22 +57,22 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/react.png"
+                    src="./images/About me/skills-icons/react.png"
                     alt="react icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/html5.png"
+                    src="./images/About me/skills-icons/html5.png"
                     alt="html5 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/css3.png"
+                    src="./images/About me/skills-icons/css3.png"
                     alt="css3 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/bootstrap.png"
+                    src="./images/About me/skills-icons/bootstrap.png"
                     alt="bootstrap icon"
                   />
                 </span>
@@ -94,17 +94,17 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/html5.png"
+                    src="./images/About me/skills-icons/html5.png"
                     alt="html5 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/css3.png"
+                    src="./images/About me/skills-icons/css3.png"
                     alt="css3 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/js.png"
+                    src="./images/About me/skills-icons/js.png"
                     alt="js icon"
                   />
                 </span>
@@ -126,22 +126,22 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/html5.png"
+                    src="./images/About me/skills-icons/html5.png"
                     alt="html5 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/css3.png"
+                    src="./images/About me/skills-icons/css3.png"
                     alt="css3 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/js.png"
+                    src="./images/About me/skills-icons/js.png"
                     alt="js icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/bootstrap.png"
+                    src="./images/About me/skills-icons/bootstrap.png"
                     alt="bootstrap icon"
                   />
                 </span>
@@ -164,7 +164,7 @@ const Projects = () => {
         <div className="row pt-5 ">
           <img
             className="icon-projects"
-            src="./images/Projects/icons/programming 2.png"
+            src="./images/Projects/icons/programming.png"
             alt="Programming Projects"
           />
           <h2 className="pb-4">Programming Projects</h2>
@@ -176,12 +176,12 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/unity.png"
+                    src="./images/About me/skills-icons/unity.png"
                     alt="unity icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/csharp.png"
+                    src="./images/About me/skills-icons/csharp.png"
                     alt="csharp icon"
                   />
                 </span>
@@ -203,12 +203,12 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/unity.png"
+                    src="./images/About me/skills-icons/unity.png"
                     alt="unity icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/csharp.png"
+                    src="./images/About me/skills-icons/csharp.png"
                     alt="csharp icon"
                   />
                 </span>
@@ -230,12 +230,12 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/unity.png"
+                    src="./images/About me/skills-icons/unity.png"
                     alt="unity icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/csharp.png"
+                    src="./images/About me/skills-icons/csharp.png"
                     alt="csharp icon"
                   />
                 </span>
@@ -257,7 +257,7 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/cplus.png"
+                    src="./images/About me/skills-icons/cplus.png"
                     alt="cplus icon"
                   />
                 </span>
@@ -279,7 +279,7 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/cplus.png"
+                    src="./images/About me/skills-icons/cplus.png"
                     alt="cplus icon"
                   />
                 </span>
@@ -301,12 +301,12 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/cplus.png"
+                    src="./images/About me/skills-icons/cplus.png"
                     alt="cplus icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/arduino.png"
+                    src="./images/About me/skills-icons/arduino.png"
                     alt="arduino icon"
                   />
                 </span>
@@ -328,7 +328,7 @@ const Projects = () => {
         <div className="row pt-5 ">
           <img
             className="icon-projects"
-            src="./images/Projects/icons/other shit 2.png"
+            src="./images/Projects/icons/other-shit.png"
             alt="Other Shit"
           />
 
@@ -341,22 +341,22 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/react.png"
+                    src="./images/About me/skills-icons/react.png"
                     alt="react icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/html5.png"
+                    src="./images/About me/skills-icons/html5.png"
                     alt="html5 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/css3.png"
+                    src="./images/About me/skills-icons/css3.png"
                     alt="css3 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/bootstrap.png"
+                    src="./images/About me/skills-icons/bootstrap.png"
                     alt="bootstrap icon"
                   />
                 </span>
@@ -378,22 +378,22 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/react.png"
+                    src="./images/About me/skills-icons/react.png"
                     alt="react icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/html5.png"
+                    src="./images/About me/skills-icons/html5.png"
                     alt="html5 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/css3.png"
+                    src="./images/About me/skills-icons/css3.png"
                     alt="css3 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/bootstrap.png"
+                    src="./images/About me/skills-icons/bootstrap.png"
                     alt="bootstrap icon"
                   />
                 </span>
@@ -415,17 +415,17 @@ const Projects = () => {
                 <span className="badge rounded-pill bg-dark badge-container">
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/html5.png"
+                    src="./images/About me/skills-icons/html5.png"
                     alt="html5 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/css3.png"
+                    src="./images/About me/skills-icons/css3.png"
                     alt="css3 icon"
                   />
                   <img
                     className="badge-icon"
-                    src="./images/About Me/skills icons/bootstrap.png"
+                    src="./images/About me/skills-icons/bootstrap.png"
                     alt="bootstrap icon"
                   />
                 </span>

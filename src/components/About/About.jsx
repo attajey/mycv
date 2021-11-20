@@ -11,7 +11,7 @@ const About = () => {
       <div className="col-12 text-center">
         <img
           className="profile-pic"
-          src="./images/My Profile Picture.jpg"
+          src="/images/My Profile Picture.jpg"
           alt="My Profile"
         />
         <div className="p-4">
@@ -117,7 +117,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/html5.png"
+                      src="/images/About me/skills-icons/html5.png"
                       alt="html5 icon"
                     />
                     HTML 5
@@ -137,7 +137,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/css3.png"
+                      src="/images/About me/skills-icons/css3.png"
                       alt="css3 icon"
                     />
                     CSS 3
@@ -156,7 +156,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/js.png"
+                      src="/images/About me/skills-icons/js.png"
                       alt="js icon"
                     />
                     JavaScript
@@ -175,7 +175,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/bootstrap.png"
+                      src="/images/About me/skills-icons/bootstrap.png"
                       alt="bootstrap icon"
                     />
                     Bootstrap
@@ -194,7 +194,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/react.png"
+                      src="/images/About me/skills-icons/react.png"
                       alt="html5 icon"
                     />
                     React
@@ -213,7 +213,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/git.png"
+                      src="/images/About me/skills-icons/git.png"
                       alt="git icon"
                     />
                     Git
@@ -232,7 +232,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/csharp.png"
+                      src="/images/About me/skills-icons/csharp.png"
                       alt="csharp icon"
                     />
                     C#
@@ -251,7 +251,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/unity.png"
+                      src="/images/About me/skills-icons/unity.png"
                       alt="unity icon"
                     />
                     Unity
@@ -270,7 +270,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/arduino.png"
+                      src="/images/About me/skills-icons/arduino.png"
                       alt="arduino icon"
                     />
                     Arduino
@@ -289,7 +289,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/wordpress.png"
+                      src="/images/About me/skills-icons/wordpress.png"
                       alt="wordpress icon"
                     />
                     Wordpress
@@ -308,7 +308,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/electronics.png"
+                      src="/images/About me/skills-icons/electronics.png"
                       alt="electronics icon"
                     />
                     Electronics
@@ -327,7 +327,7 @@ const About = () => {
                   <span className="badge rounded-pill bg-dark">
                     <img
                       className="skills-icon"
-                      src="./images/About Me/skills icons/linux.png"
+                      src="/images/About me/skills-icons/linux.png"
                       alt="linux icon"
                     />
                     Linux

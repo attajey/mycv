@@ -59,7 +59,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/front end.png"
+                      src="/images/Projects/icons/front-end-b.png"
                       alt="Front-end Projects"
                     />
                     &#160;Architecture CV Sample
@@ -69,7 +69,7 @@ const TopNav = () => {
                   <NavLink className="dropdown-item" to="/projects/react/my-cv">
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/front end.png"
+                      src="/images/Projects/icons/front-end-b.png"
                       alt="Front-end Projects"
                     />
                     &#160;My CV
@@ -82,7 +82,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/front end.png"
+                      src="/images/Projects/icons/front-end-b.png"
                       alt="Front-end Projects"
                     />
                     &#160;Profile Intern Project
@@ -95,7 +95,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/front end.png"
+                      src="/images/Projects/icons/front-end-b.png"
                       alt="Front-end Projects"
                     />
                     &#160;Mother Nature
@@ -109,7 +109,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/programming.png"
+                      src="/images/Projects/icons/programming-b.png"
                       alt="Programming Projects"
                     />
                     &#160;Project Boost
@@ -122,7 +122,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/programming.png"
+                      src="/images/Projects/icons/programming-b.png"
                       alt="Programming Projects"
                     />
                     &#160;Argon Assault
@@ -135,7 +135,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/programming.png"
+                      src="/images/Projects/icons/programming-b.png"
                       alt="Programming Projects"
                     />
                     &#160;Realm Rush
@@ -148,7 +148,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/programming.png"
+                      src="/images/Projects/icons/programming-b.png"
                       alt="Programming Projects"
                     />
                     &#160;Tetris
@@ -161,7 +161,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/programming.png"
+                      src="/images/Projects/icons/programming-b.png"
                       alt="Programming Projects"
                     />
                     &#160;Accounting Software
@@ -174,7 +174,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/programming.png"
+                      src="/images/Projects/icons/programming-b.png"
                       alt="Programming Projects"
                     />
                     &#160;Parking Sensor
@@ -188,7 +188,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/other shit.png"
+                      src="/images/Projects/icons/other-shit-b.png"
                       alt="Other Shit"
                     />
                     &#160;Person Manager
@@ -201,7 +201,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/other shit.png"
+                      src="/images/Projects/icons/other-shit-b.png"
                       alt="Other Shit"
                     />
                     &#160;Robo Friends
@@ -214,7 +214,7 @@ const TopNav = () => {
                   >
                     <img
                       className="icon-menu-projects"
-                      src="./images/Projects/icons/other shit.png"
+                      src="/images/Projects/icons/other-shit-b.png"
                       alt="Other Shit"
                     />
                     &#160;Background Generator
